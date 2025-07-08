@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-nomic
+langchain-pinecone
+langgraph
+jq
+pinecone
