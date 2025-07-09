@@ -1,13 +1,11 @@
-from load_and_chunk.load_and_chunk import load_documents, chunk_text 
-from vector_store.embeddings_and_vectorstore import create_embeddings, initialize_vec_store_and_embedding_model
-from retriever.retriever import build_rag_graph,State
+from src.load_and_chunk.load_and_chunk import load_documents, chunk_text 
+from src.vector_store.embeddings_and_vectorstore import create_embeddings, initialize_vec_store_and_embedding_model
+from src.retriever.retriever import build_rag_graph,State
 
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv; load_dotenv()
 
 def main():
-    load_dotenv()
-
     # Step 1: Load + chunk
     documents = load_documents("data/drug-event.json")
     chunks = chunk_text(documents=documents)

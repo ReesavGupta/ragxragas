@@ -5,3 +5,8 @@ langchain-pinecone
 langgraph
 jq
 pinecone
+fastapi
+uvicorn
+ragas
+streamlit
+python-dotenv

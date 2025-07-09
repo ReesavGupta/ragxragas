@@ -19,7 +19,6 @@ def build_rag_graph(vector_store):
     prompt = hub.pull("rlm/rag-prompt", )
     llm = init_groq()
         
-
     def retrieve(state: State):        
         retrieved_docs  = vector_store.similarity_search(state["question"], k=3)
         return {"context" : retrieved_docs}
