@@ -60,7 +60,14 @@ class IntentRAGPipeline:
     def run(self, question: str):
         state = {"question": question, "context": [], "answer": ""}  # type: ignore
         result = self.graph.invoke(state)  # type: ignore
-        return result["answer"]
+        # Return both answer and context documents
+        context_docs = state["context"] if "context" in state else []
+        # If context is not updated in state, try to get from result
+        if not context_docs and "context" in result:
+            context_docs = result["context"]
+        # Convert context docs to text if they are Document objects
+        context_texts = [doc.page_content if hasattr(doc, 'page_content') else str(doc) for doc in context_docs]
+        return {"answer": result["answer"], "context": context_texts}
 
 # Factory for all three intent pipelines
 class IntentRAGFactory:

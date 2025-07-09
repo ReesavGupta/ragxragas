@@ -1,8 +1,11 @@
 {
   "summary": {
-    "intent_accuracy": 0.7833333333333333,
-    "avg_response_time": 1.7771286328633626,
-    "total_time": 106.62771797180176,
+    "intent_accuracy": 0.8,
+    "avg_response_time": 1.6392282088597616,
+    "avg_context_utilization": 0.16107884900889588,
+    "avg_cosine_similarity": 0.8293762944247514,
+    "avg_token_usage": 26.966666666666665,
+    "total_time": 150.05211091041565,
     "total": 60
   },
   "results": [
@@ -12,8 +15,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can reset your account password through our support ticket system. \n\nVerification, security questions, and SMS-based recovery codes are supported. \n\n",
-      "response_time": 5.639514207839966
+      "answer": "You can reset your account password by emailing support with verification questions. Automated recovery options are available, including email verification, security questions, and SMS codes. For 2FA failures, request manual account verification.",
+      "context": [
+        "Login  Issue  Resolution  \nLogin  problems  are  categorized  into  three  severity  levels:  account  lockouts  (high),  password  \nreset\n \nfailures\n \n(medium),\n \nand\n \ngeneral\n \nauthentication\n \ndelays\n \n(low).\n \nHigh-severity\n \nissues\n \nreceive\n \nimmediate\n \nattention\n \nwith\n \ntarget\n \nresolution\n \ntimes\n \nof\n \n30\n \nminutes\n \nduring\n \nbusiness\n \nhours.\n \nOur  authentication  system  includes  automated  account  recovery  options,  including  email  \nverification,\n \nsecurity\n \nquestions,\n \nand",
+        "reconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS\n \ncodes,\n \nand\n \nhardware\n \nsecurity\n \nkeys\n \nacross\n \nall\n \nsupported\n \nplatforms.\n \nCustomers  experiencing  2FA  failures  can  request  temporary  access  codes  valid  for  24  hours  \nwhile\n \nresolving\n \ntheir\n \nauthentication\n \nsetup.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ndocumentation\n \nfor\n \nall\n \nsupported\n \n2FA\n \nmethods\n \nand\n \ncan\n \nprovide\n \nstep-by-step\n \nconfiguration\n \nguidance.",
+        "verification,\n \nsecurity\n \nquestions,\n \nand\n \nSMS-based\n \nrecovery\n \ncodes.\n \nWhen\n \nautomated\n \nrecovery\n \nfails,\n \ncustomers\n \ncan\n \nrequest\n \nmanual\n \naccount\n \nverification\n \nthrough\n \nour\n \nsupport\n \nticket\n \nsystem.\n \nTwo-Factor  Authentication  Support  \n2FA  configuration  issues  are  handled  by  our  security-specialized  support  agents  who  can  \nverify\n \nidentity\n \nthrough\n \nalternative\n \nmethods\n \nand\n \nassist\n \nwith\n \ndevice\n \nreconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS"
+      ],
+      "response_time": 4.302265405654907,
+      "context_utilization": 0.21904761904761905,
+      "cosine_similarity": 0.8600113460905984,
+      "token_usage": 32
     },
     {
       "id": 2,
@@ -21,8 +32,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "The app is crashing, and it's likely due to a recent update. Rollback policies are in place to address this issue within 30 minutes of deployment.",
-      "response_time": 2.0610880851745605
+      "answer": "The app is crashing. You can troubleshoot using platform-specific guidance from the mobile development team. Updates are typically deployed within 48 hours, and users are notified through various channels.",
+      "context": [
+        "Mobile  application  issues  are  triaged  within  2  hours  of  submission  during  business  hours  and  \nwithin\n \n8\n \nhours\n \nduring\n \nweekends\n \nand\n \nholidays.\n \nCritical\n \nbugs\n \naffecting\n \nuser\n \nauthentication,\n \ndata\n \nloss,\n \nor\n \npayment\n \nprocessing\n \nreceive\n \nimmediate\n \nescalation\n \nto\n \nour\n \nmobile\n \ndevelopment\n \nteam.\n \nOur  mobile  support  team  maintains  dedicated  iOS  and  Android  specialists  who  can  provide  \nplatform-specific\n \ntroubleshooting\n \nguidance.\n \nCommon\n \nissues",
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "deployment.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nupcoming\n \nupdates\n \nthrough\n \nmultiple\n \nchannels\n \nincluding\n \nemail\n \nnotifications,\n \nin-app\n \nannouncements,\n \nand\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \ntiming\n \nand\n \nexpected\n \nimpact\n \ninformation.\n \nRollback  Policy  and  Procedures  \nIn  the  event  of  update-related  issues,  our  engineering  team  maintains  the  capability  to  \nrollback\n \nchanges\n \nwithin\n \n30\n \nminutes\n \nof\n \ndeployment.\n \nRollback\n \ndecisions\n \nare\n \nmade\n \nby"
+      ],
+      "response_time": 1.613863229751587,
+      "context_utilization": 0.15454545454545454,
+      "cosine_similarity": 0.8884331559994213,
+      "token_usage": 29
     },
     {
       "id": 3,
@@ -30,8 +49,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "feature_request",
       "is_correct_intent": false,
-      "answer": "You can update the software to the latest version through proactive communication, regular progress reports, and feature development timelines, which includes dedicated engineering resources and customer involvement.",
-      "response_time": 2.9083869457244873
+      "answer": "To update your software, you can typically use the \u201cUpdate\u201d or \u201cRelease\u201d feature, which provides regular progress reports and revised delivery estimates.  Delayed features receive detailed explanations and revised timelines.",
+      "context": [
+        "for\n \ntechnical\n \nchallenges\n \nand\n \nresource\n \nconstraints.\n \nCommitment  updates  are  communicated  proactively  with  detailed  explanations  for  any  \nchanges.\n \nCustomers\n \nreceive\n \nregular\n \nprogress\n \nreports\n \nand\n \nrevised\n \ndelivery\n \nestimates\n \nwhen\n \nnecessary.\n \nPost-Release  Support  and  Iteration  \nReleased  features  receive  ongoing  support  including  bug  fixes,  performance  improvements,  \nand\n \nuser\n \nexperience\n \nenhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated",
+        "Timeline  Communication  and  Updates  \nFeature  development  timelines  are  communicated  through  roadmap  publications,  customer  \nnewsletters,\n \nand\n \nproduct\n \nupdate\n \nannouncements.\n \nTimeline\n \nupdates\n \ninclude\n \nprogress\n \nreports,\n \nscope\n \nchanges,\n \nand\n \ndelivery\n \ndate\n \nadjustments.\n \nDelayed  features  receive  detailed  explanations  including  technical  challenges,  resource  \nconstraints,\n \nand\n \nrevised\n \ntimeline\n \nestimates.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nsignificant",
+        "enhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated\n \nengineering\n \nresources\n \nand\n \ncustomer\n \nsuccess\n \ninvolvement.\n \nFeature  iterations  are  planned  based  on  customer  feedback,  usage  analytics,  and  identified  \nimprovement\n \nopportunities.\n \nIterative\n \nimprovements\n \nare\n \ncommunicated\n \nthrough\n \nregular\n \nproduct\n \nupdates\n \nand\n \nenhancement\n \nannouncements.\n \n \n \nCommunity  Feedback  and  Engagement"
+      ],
+      "response_time": 2.8326148986816406,
+      "context_utilization": 0.14772727272727273,
+      "cosine_similarity": 0.8575196365975414,
+      "token_usage": 30
     },
     {
       "id": 4,
@@ -39,8 +66,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "The error code 404 indicates that the login is not recognized. The system includes automated account recovery options, but this may not be the issue.",
-      "response_time": 1.5451881885528564
+      "answer": "The error code 404 indicates that the login system cannot find the requested account. This is a common issue with authentication systems.",
+      "context": [
+        "Login  Issue  Resolution  \nLogin  problems  are  categorized  into  three  severity  levels:  account  lockouts  (high),  password  \nreset\n \nfailures\n \n(medium),\n \nand\n \ngeneral\n \nauthentication\n \ndelays\n \n(low).\n \nHigh-severity\n \nissues\n \nreceive\n \nimmediate\n \nattention\n \nwith\n \ntarget\n \nresolution\n \ntimes\n \nof\n \n30\n \nminutes\n \nduring\n \nbusiness\n \nhours.\n \nOur  authentication  system  includes  automated  account  recovery  options,  including  email  \nverification,\n \nsecurity\n \nquestions,\n \nand",
+        "cycle.\n \nOur\n \noperations\n \nteam\n \nmaintains\n \nreal-time\n \nmonitoring\n \nof\n \nall\n \ncritical\n \nsystems\n \nwith\n \nautomated\n \nalerting\n \nfor\n \nany\n \nservice\n \ndegradation.\n \nError  Logging  and  Incident  Management  \nAll  system  errors  are  automatically  logged  with  detailed  context  including  user  actions,  \nsystem\n \nstate,\n \nand\n \nenvironmental\n \nfactors.\n \nOur\n \nsupport\n \nteam\n \nhas\n \naccess\n \nto\n \ncomprehensive\n \nerror\n \nlogs\n \nto\n \nfacilitate\n \nrapid\n \ntroubleshooting\n \nand\n \nroot\n \ncause",
+        "Standard\n \naccounts\n \nreceive\n \n1,000\n \nrequests\n \nper\n \nhour,\n \nwhile\n \npremium\n \naccounts\n \nare\n \nallocated\n \n10,000\n \nrequests\n \nper\n \nhour.\n \nRate\n \nlimits\n \nreset\n \nat\n \nthe\n \ntop\n \nof\n \neach\n \nhour,\n \nand\n \ncustomers\n \ncan\n \nmonitor\n \ntheir\n \nusage\n \nthrough\n \nthe\n \ndeveloper\n \ndashboard.\n \nWhen  approaching  rate  limits,  the  API  returns  HTTP  429  status  codes  with  headers  \nindicating\n \nwhen\n \nlimits\n \nwill\n \nreset.\n \nCustomers\n \nexperiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould"
+      ],
+      "response_time": 3.77718448638916,
+      "context_utilization": 0.0546875,
+      "cosine_similarity": 0.7745820702181536,
+      "token_usage": 22
     },
     {
       "id": 5,
@@ -48,8 +83,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "No, you cannot recover deleted files. The context focuses on backup and recovery procedures.",
-      "response_time": 1.811086654663086
+      "answer": "Yes, there are ways to recover deleted files. The context mentions backup and recovery procedures, testing monthly to ensure data integrity, and automated recovery codes.",
+      "context": [
+        "resolution\n \ntimelines.\n \nBackup  and  Recovery  Procedures  \nCustomer  data  is  backed  up  continuously  with  full  system  backups  performed  daily  and  \nincremental\n \nbackups\n \nevery\n \n4\n \nhours.\n \nRecovery\n \nprocedures\n \nare\n \ntested\n \nmonthly\n \nto\n \nensure\n \ndata\n \nintegrity\n \nand\n \nminimize\n \nrecovery\n \ntime\n \nobjectives\n \nin\n \ncase\n \nof\n \nsystem\n \nfailures.\n \nOur  backup  systems  maintain  multiple  geographic  locations  with  automated  failover  \ncapabilities.\n \nIn\n \nthe\n \nevent\n \nof",
+        "verification,\n \nsecurity\n \nquestions,\n \nand\n \nSMS-based\n \nrecovery\n \ncodes.\n \nWhen\n \nautomated\n \nrecovery\n \nfails,\n \ncustomers\n \ncan\n \nrequest\n \nmanual\n \naccount\n \nverification\n \nthrough\n \nour\n \nsupport\n \nticket\n \nsystem.\n \nTwo-Factor  Authentication  Support  \n2FA  configuration  issues  are  handled  by  our  security-specialized  support  agents  who  can  \nverify\n \nidentity\n \nthrough\n \nalternative\n \nmethods\n \nand\n \nassist\n \nwith\n \ndevice\n \nreconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS",
+        "capabilities.\n \nIn\n \nthe\n \nevent\n \nof\n \ndata\n \nrecovery\n \nneeds,\n \ncustomers\n \nare\n \nnotified\n \nof\n \nthe\n \nrecovery\n \nprocess\n \ntimeline\n \nand\n \nany\n \nactions\n \nrequired\n \nto\n \nrestore\n \ntheir\n \nservice\n \nfunctionality.\n \nSupport  Infrastructure  and  Languages  \nMulti-Language  Support  Capabilities  \nTechnical  support  is  available  in  English,  Spanish,  French,  German,  Japanese,  and  \nMandarin\n \nChinese\n \nwith\n \nnative\n \nspeakers\n \navailable\n \nduring\n \nrespective\n \nregional\n \nbusiness\n \nhours."
+      ],
+      "response_time": 1.6973583698272705,
+      "context_utilization": 0.09649122807017543,
+      "cosine_similarity": 0.7888902899762762,
+      "token_usage": 25
     },
     {
       "id": 6,
@@ -57,8 +100,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can try restarting your device or app, or checking for updates in the app store. \n\n",
-      "response_time": 2.117097854614258
+      "answer": "You can try restarting your device or app, or checking for updates through the app store. \n\n",
+      "context": [
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "Outage  Management  and  Communication  \nOutage  Alert  System  \nOur  monitoring  systems  provide  real-time  service  status  updates  through  automated  alerts  \nsent\n \nvia\n \nemail,\n \nSMS,\n \nand\n \npush\n \nnotifications\n \nbased\n \non\n \ncustomer\n \npreferences.\n \nService\n \nstatus\n \ninformation\n \nis\n \nprominently\n \ndisplayed\n \non\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \nimpact\n \nassessments\n \nand\n \nestimated\n \nresolution\n \ntimes.",
+        "deployment.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nupcoming\n \nupdates\n \nthrough\n \nmultiple\n \nchannels\n \nincluding\n \nemail\n \nnotifications,\n \nin-app\n \nannouncements,\n \nand\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \ntiming\n \nand\n \nexpected\n \nimpact\n \ninformation.\n \nRollback  Policy  and  Procedures  \nIn  the  event  of  update-related  issues,  our  engineering  team  maintains  the  capability  to  \nrollback\n \nchanges\n \nwithin\n \n30\n \nminutes\n \nof\n \ndeployment.\n \nRollback\n \ndecisions\n \nare\n \nmade\n \nby"
+      ],
+      "response_time": 1.1999733448028564,
+      "context_utilization": 0.037383177570093455,
+      "cosine_similarity": 0.7639182191460717,
+      "token_usage": 16
     },
     {
       "id": 7,
@@ -66,8 +117,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "feature_request",
       "is_correct_intent": false,
-      "answer": "You can change your email address through the app\u2019s feedback mechanisms, submission categories, or direct in-app settings. \n\n",
-      "response_time": 1.397529125213623
+      "answer": "You can change your email address through the app's feedback mechanisms, direct in-app settings, or third-party integrations.\n\n",
+      "context": [
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.",
+        "third-party\n \nintegrations,\n \nor\n \ncustom\n \ndevelopment\n \noptions.\n \nAlternative\n \nsolutions\n \ninclude\n \nimplementation\n \nguides\n \nand\n \nsupport\n \nresources.\n \nAlternative  solution  development  includes  community  collaboration  and  customer  success  \nteam\n \ninvolvement.\n \nAlte\n \n \nContact  Information  \n\u25cf  Feature  Requests :  features@company.com  \u25cf  Product  Feedback :  feedback@company.com  \u25cf  Beta  Program :  beta@company.com  \u25cf  Product  Portal :  portal.company.com  \nPolicy  Updates",
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources."
+      ],
+      "response_time": 1.291156530380249,
+      "context_utilization": 0.0673076923076923,
+      "cosine_similarity": 0.7501992544795654,
+      "token_usage": 17
     },
     {
       "id": 8,
@@ -75,8 +134,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "feature_request",
       "is_correct_intent": false,
-      "answer": "The website may be slow. Community voting and feedback can help improve implementation likelihood.",
-      "response_time": 1.3795497417449951
+      "answer": "The website may be loading slowly due to implementation guides and support resources. Community voting and feedback can help improve the experience.",
+      "context": [
+        "third-party\n \nintegrations,\n \nor\n \ncustom\n \ndevelopment\n \noptions.\n \nAlternative\n \nsolutions\n \ninclude\n \nimplementation\n \nguides\n \nand\n \nsupport\n \nresources.\n \nAlternative  solution  development  includes  community  collaboration  and  customer  success  \nteam\n \ninvolvement.\n \nAlte\n \n \nContact  Information  \n\u25cf  Feature  Requests :  features@company.com  \u25cf  Product  Feedback :  feedback@company.com  \u25cf  Beta  Program :  beta@company.com  \u25cf  Product  Portal :  portal.company.com  \nPolicy  Updates",
+        "and\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.\n \nDocumentation  Requirements  \nComplete  feature  requests  include  problem  statements,  proposed  solutions,  success  \nmetrics,\n \nand\n \nbusiness\n \njustification.\n \nTechnical\n \nrequirements\n \nshould\n \nspecify\n \nplatform\n \ncompatibility,\n \nperformance\n \nexpectations,\n \nand\n \nsecurity\n \nconsiderations.\n \nVisual  mockups,  workflow  diagrams,  and  user  journey  maps  enhance  request  evaluation  \nand\n \nincrease\n \nimplementation\n \nlikelihood.",
+        "and\n \nincrease\n \nimplementation\n \nlikelihood.\n \nSupporting\n \ndocumentation\n \nincluding\n \nmarket\n \nresearch,\n \ncompetitor\n \nanalysis,\n \nand\n \nuser\n \nfeedback\n \nstrengthens\n \nsubmission\n \nquality.\n \nCommunity  Voting  and  Feedback  \nUpvoting  System  and  Mechanics  \nOur  community  voting  platform  allows  customers  to  upvote  feature  requests  with  weighted  \nvoting\n \nbased\n \non\n \nsubscription\n \ntier\n \nand\n \naccount\n \ntenure.\n \nPremium\n \ncustomers\n \nreceive\n \n3\n \nvotes\n \nper\n \nrequest\n \nwhile"
+      ],
+      "response_time": 1.2642076015472412,
+      "context_utilization": 0.08256880733944955,
+      "cosine_similarity": 0.776806966446015,
+      "token_usage": 22
     },
     {
       "id": 9,
@@ -84,17 +151,33 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can enable two-factor authentication through authenticator apps, SMS codes, and hardware security keys across all supported platforms. Customers can request temporary access codes for 24 hours while troubleshooting their authentication setup.",
-      "response_time": 2.4133236408233643
+      "answer": "You can enable two-factor authentication by configuring an authenticator app, SMS codes, or hardware security keys across all supported platforms. Customers can request temporary access codes for 24 hours while troubleshooting.",
+      "context": [
+        "reconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS\n \ncodes,\n \nand\n \nhardware\n \nsecurity\n \nkeys\n \nacross\n \nall\n \nsupported\n \nplatforms.\n \nCustomers  experiencing  2FA  failures  can  request  temporary  access  codes  valid  for  24  hours  \nwhile\n \nresolving\n \ntheir\n \nauthentication\n \nsetup.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ndocumentation\n \nfor\n \nall\n \nsupported\n \n2FA\n \nmethods\n \nand\n \ncan\n \nprovide\n \nstep-by-step\n \nconfiguration\n \nguidance.",
+        "verification,\n \nsecurity\n \nquestions,\n \nand\n \nSMS-based\n \nrecovery\n \ncodes.\n \nWhen\n \nautomated\n \nrecovery\n \nfails,\n \ncustomers\n \ncan\n \nrequest\n \nmanual\n \naccount\n \nverification\n \nthrough\n \nour\n \nsupport\n \nticket\n \nsystem.\n \nTwo-Factor  Authentication  Support  \n2FA  configuration  issues  are  handled  by  our  security-specialized  support  agents  who  can  \nverify\n \nidentity\n \nthrough\n \nalternative\n \nmethods\n \nand\n \nassist\n \nwith\n \ndevice\n \nreconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS",
+        "Login  Issue  Resolution  \nLogin  problems  are  categorized  into  three  severity  levels:  account  lockouts  (high),  password  \nreset\n \nfailures\n \n(medium),\n \nand\n \ngeneral\n \nauthentication\n \ndelays\n \n(low).\n \nHigh-severity\n \nissues\n \nreceive\n \nimmediate\n \nattention\n \nwith\n \ntarget\n \nresolution\n \ntimes\n \nof\n \n30\n \nminutes\n \nduring\n \nbusiness\n \nhours.\n \nOur  authentication  system  includes  automated  account  recovery  options,  including  email  \nverification,\n \nsecurity\n \nquestions,\n \nand"
+      ],
+      "response_time": 1.591364860534668,
+      "context_utilization": 0.21904761904761905,
+      "cosine_similarity": 0.8717482835531954,
+      "token_usage": 31
     },
     {
       "id": 10,
       "query": "I forgot my username. How can I retrieve it?",
       "true_intent": "technical_support",
-      "predicted_intent": "billing_account",
-      "is_correct_intent": false,
-      "answer": "You can retrieve your username by contacting the billing team within the grace period to arrange payment extensions or alternative payment schedules.\n",
-      "response_time": 3.5555620193481445
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can retrieve your username through manual account verification through our support ticket system. Support agents can verify your identity using alternative methods and assist with device reconfiguration.",
+      "context": [
+        "verification,\n \nsecurity\n \nquestions,\n \nand\n \nSMS-based\n \nrecovery\n \ncodes.\n \nWhen\n \nautomated\n \nrecovery\n \nfails,\n \ncustomers\n \ncan\n \nrequest\n \nmanual\n \naccount\n \nverification\n \nthrough\n \nour\n \nsupport\n \nticket\n \nsystem.\n \nTwo-Factor  Authentication  Support  \n2FA  configuration  issues  are  handled  by  our  security-specialized  support  agents  who  can  \nverify\n \nidentity\n \nthrough\n \nalternative\n \nmethods\n \nand\n \nassist\n \nwith\n \ndevice\n \nreconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS",
+        "resolution\n \ntimelines.\n \nBackup  and  Recovery  Procedures  \nCustomer  data  is  backed  up  continuously  with  full  system  backups  performed  daily  and  \nincremental\n \nbackups\n \nevery\n \n4\n \nhours.\n \nRecovery\n \nprocedures\n \nare\n \ntested\n \nmonthly\n \nto\n \nensure\n \ndata\n \nintegrity\n \nand\n \nminimize\n \nrecovery\n \ntime\n \nobjectives\n \nin\n \ncase\n \nof\n \nsystem\n \nfailures.\n \nOur  backup  systems  maintain  multiple  geographic  locations  with  automated  failover  \ncapabilities.\n \nIn\n \nthe\n \nevent\n \nof",
+        "Login  Issue  Resolution  \nLogin  problems  are  categorized  into  three  severity  levels:  account  lockouts  (high),  password  \nreset\n \nfailures\n \n(medium),\n \nand\n \ngeneral\n \nauthentication\n \ndelays\n \n(low).\n \nHigh-severity\n \nissues\n \nreceive\n \nimmediate\n \nattention\n \nwith\n \ntarget\n \nresolution\n \ntimes\n \nof\n \n30\n \nminutes\n \nduring\n \nbusiness\n \nhours.\n \nOur  authentication  system  includes  automated  account  recovery  options,  including  email  \nverification,\n \nsecurity\n \nquestions,\n \nand"
+      ],
+      "response_time": 1.461021900177002,
+      "context_utilization": 0.16521739130434782,
+      "cosine_similarity": 0.8071106242062525,
+      "token_usage": 28
     },
     {
       "id": 11,
@@ -102,8 +185,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can uninstall the application through the app store or by using the app\u2019s settings menu. \n\nHere\u2019s a breakdown of the process:\n \nCommon issues include app crashes, sync failures, and performance problems, which are typically resolved within 48 hours. Security patches are deployed within 72 hours of identification.\n",
-      "response_time": 2.278775215148926
+      "answer": "You can uninstall the application through the app store. Security updates are deployed within 72 hours of identification. \n\n",
+      "context": [
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "Mobile  application  issues  are  triaged  within  2  hours  of  submission  during  business  hours  and  \nwithin\n \n8\n \nhours\n \nduring\n \nweekends\n \nand\n \nholidays.\n \nCritical\n \nbugs\n \naffecting\n \nuser\n \nauthentication,\n \ndata\n \nloss,\n \nor\n \npayment\n \nprocessing\n \nreceive\n \nimmediate\n \nescalation\n \nto\n \nour\n \nmobile\n \ndevelopment\n \nteam.\n \nOur  mobile  support  team  maintains  dedicated  iOS  and  Android  specialists  who  can  provide  \nplatform-specific\n \ntroubleshooting\n \nguidance.\n \nCommon\n \nissues",
+        "deployment.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nupcoming\n \nupdates\n \nthrough\n \nmultiple\n \nchannels\n \nincluding\n \nemail\n \nnotifications,\n \nin-app\n \nannouncements,\n \nand\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \ntiming\n \nand\n \nexpected\n \nimpact\n \ninformation.\n \nRollback  Policy  and  Procedures  \nIn  the  event  of  update-related  issues,  our  engineering  team  maintains  the  capability  to  \nrollback\n \nchanges\n \nwithin\n \n30\n \nminutes\n \nof\n \ndeployment.\n \nRollback\n \ndecisions\n \nare\n \nmade\n \nby"
+      ],
+      "response_time": 1.2537848949432373,
+      "context_utilization": 0.12727272727272726,
+      "cosine_similarity": 0.8265049403795506,
+      "token_usage": 18
     },
     {
       "id": 12,
@@ -111,8 +202,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "Standard. Uploading files larger than 10MB is restricted.",
-      "response_time": 1.5893025398254395
+      "answer": "Standard accounts receive 1,000 requests per hour, while premium accounts have a 10,000 request limit.\n\n",
+      "context": [
+        "Standard\n \naccounts\n \nreceive\n \n1,000\n \nrequests\n \nper\n \nhour,\n \nwhile\n \npremium\n \naccounts\n \nare\n \nallocated\n \n10,000\n \nrequests\n \nper\n \nhour.\n \nRate\n \nlimits\n \nreset\n \nat\n \nthe\n \ntop\n \nof\n \neach\n \nhour,\n \nand\n \ncustomers\n \ncan\n \nmonitor\n \ntheir\n \nusage\n \nthrough\n \nthe\n \ndeveloper\n \ndashboard.\n \nWhen  approaching  rate  limits,  the  API  returns  HTTP  429  status  codes  with  headers  \nindicating\n \nwhen\n \nlimits\n \nwill\n \nreset.\n \nCustomers\n \nexperiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould",
+        "Login  Issue  Resolution  \nLogin  problems  are  categorized  into  three  severity  levels:  account  lockouts  (high),  password  \nreset\n \nfailures\n \n(medium),\n \nand\n \ngeneral\n \nauthentication\n \ndelays\n \n(low).\n \nHigh-severity\n \nissues\n \nreceive\n \nimmediate\n \nattention\n \nwith\n \ntarget\n \nresolution\n \ntimes\n \nof\n \n30\n \nminutes\n \nduring\n \nbusiness\n \nhours.\n \nOur  authentication  system  includes  automated  account  recovery  options,  including  email  \nverification,\n \nsecurity\n \nquestions,\n \nand",
+        "Mobile  application  issues  are  triaged  within  2  hours  of  submission  during  business  hours  and  \nwithin\n \n8\n \nhours\n \nduring\n \nweekends\n \nand\n \nholidays.\n \nCritical\n \nbugs\n \naffecting\n \nuser\n \nauthentication,\n \ndata\n \nloss,\n \nor\n \npayment\n \nprocessing\n \nreceive\n \nimmediate\n \nescalation\n \nto\n \nour\n \nmobile\n \ndevelopment\n \nteam.\n \nOur  mobile  support  team  maintains  dedicated  iOS  and  Android  specialists  who  can  provide  \nplatform-specific\n \ntroubleshooting\n \nguidance.\n \nCommon\n \nissues"
+      ],
+      "response_time": 1.450796127319336,
+      "context_utilization": 0.07936507936507936,
+      "cosine_similarity": 0.8296789339189634,
+      "token_usage": 15
     },
     {
       "id": 13,
@@ -120,8 +219,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can clear the app cache through the settings menu within your mobile browser. \n\nThe context states that mobile browsers on iOS Safari and Chrome for Android are supported for the current and previous major OS versions.\n\n",
-      "response_time": 2.021131753921509
+      "answer": "You can clear the app cache through the mobile browser settings of your iOS Safari or Chrome devices. Mobile browsers on iOS Safari and Chrome for Android are supported for the current and previous major OS versions. The support team maintains compatibility testing results for enterprise customers with unique browser requirements. Troubleshooting issues like app crashes, sync failures, and performance problems are typically resolved within 48 hours of initial reporting.",
+      "context": [
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support",
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "reconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS\n \ncodes,\n \nand\n \nhardware\n \nsecurity\n \nkeys\n \nacross\n \nall\n \nsupported\n \nplatforms.\n \nCustomers  experiencing  2FA  failures  can  request  temporary  access  codes  valid  for  24  hours  \nwhile\n \nresolving\n \ntheir\n \nauthentication\n \nsetup.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ndocumentation\n \nfor\n \nall\n \nsupported\n \n2FA\n \nmethods\n \nand\n \ncan\n \nprovide\n \nstep-by-step\n \nconfiguration\n \nguidance."
+      ],
+      "response_time": 2.15480637550354,
+      "context_utilization": 0.4107142857142857,
+      "cosine_similarity": 0.8654038800013607,
+      "token_usage": 70
     },
     {
       "id": 14,
@@ -129,8 +236,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "The app may be syncing issues, which can be resolved within 48 hours of initial report. \n\n",
-      "response_time": 1.3556914329528809
+      "answer": "The app is not syncing across your devices.\n \nTroubleshooting is recommended within 48 hours of initial report.\n",
+      "context": [
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "Mobile  application  issues  are  triaged  within  2  hours  of  submission  during  business  hours  and  \nwithin\n \n8\n \nhours\n \nduring\n \nweekends\n \nand\n \nholidays.\n \nCritical\n \nbugs\n \naffecting\n \nuser\n \nauthentication,\n \ndata\n \nloss,\n \nor\n \npayment\n \nprocessing\n \nreceive\n \nimmediate\n \nescalation\n \nto\n \nour\n \nmobile\n \ndevelopment\n \nteam.\n \nOur  mobile  support  team  maintains  dedicated  iOS  and  Android  specialists  who  can  provide  \nplatform-specific\n \ntroubleshooting\n \nguidance.\n \nCommon\n \nissues",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.4158475399017334,
+      "context_utilization": 0.08256880733944955,
+      "cosine_similarity": 0.8615561434421202,
+      "token_usage": 17
     },
     {
       "id": 15,
@@ -138,8 +253,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can report bugs through the mobile application support troubleshooting guidelines. Bugs affecting authentication, data loss, or payment processing receive immediate escalation.  Bug reporting is typically handled within 48 hours of submission.",
-      "response_time": 1.8653767108917236
+      "answer": "You can report bugs through the mobile application support troubleshooting guide. Issues affecting authentication, data loss, or payment processing receive immediate escalation.  The mobile support team provides platform-specific troubleshooting guidance.",
+      "context": [
+        "browser\n \nrequirements.\n \nMobile  Application  Support  \nBug  Reporting  and  Resolution",
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "Mobile  application  issues  are  triaged  within  2  hours  of  submission  during  business  hours  and  \nwithin\n \n8\n \nhours\n \nduring\n \nweekends\n \nand\n \nholidays.\n \nCritical\n \nbugs\n \naffecting\n \nuser\n \nauthentication,\n \ndata\n \nloss,\n \nor\n \npayment\n \nprocessing\n \nreceive\n \nimmediate\n \nescalation\n \nto\n \nour\n \nmobile\n \ndevelopment\n \nteam.\n \nOur  mobile  support  team  maintains  dedicated  iOS  and  Android  specialists  who  can  provide  \nplatform-specific\n \ntroubleshooting\n \nguidance.\n \nCommon\n \nissues"
+      ],
+      "response_time": 1.391035556793213,
+      "context_utilization": 0.24096385542168675,
+      "cosine_similarity": 0.8783699742481612,
+      "token_usage": 30
     },
     {
       "id": 16,
@@ -147,8 +270,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "feature_request",
       "is_correct_intent": false,
-      "answer": "You can typically turn off automatic updates by going to your account settings and disabling the automatic update feature.",
-      "response_time": 1.2561917304992676
+      "answer": "You can turn off automatic updates by going to the settings menu within the app and disabling the automatic update feature.",
+      "context": [
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "for\n \ntechnical\n \nchallenges\n \nand\n \nresource\n \nconstraints.\n \nCommitment  updates  are  communicated  proactively  with  detailed  explanations  for  any  \nchanges.\n \nCustomers\n \nreceive\n \nregular\n \nprogress\n \nreports\n \nand\n \nrevised\n \ndelivery\n \nestimates\n \nwhen\n \nnecessary.\n \nPost-Release  Support  and  Iteration  \nReleased  features  receive  ongoing  support  including  bug  fixes,  performance  improvements,  \nand\n \nuser\n \nexperience\n \nenhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated",
+        "Notification  and  Alert  Systems  \nDevelopment  Progress  Notifications  \nCustomers  receive  automated  notifications  for  features  they've  voted  on  or  submitted,  \nincluding\n \ndevelopment\n \nstart,\n \nmilestone\n \ncompletion,\n \nand\n \nrelease\n \nannouncements.\n \nNotification\n \npreferences\n \ncan\n \nbe\n \ncustomized\n \nby\n \nfeature\n \ncategory\n \nand\n \nupdate\n \nfrequency.\n \nProgress  notifications  include  detailed  development  updates,  testing  results,  and  expected  \nrelease\n \ntimelines.\n \nCustomers"
+      ],
+      "response_time": 1.2496907711029053,
+      "context_utilization": 0.06315789473684211,
+      "cosine_similarity": 0.6861596953908323,
+      "token_usage": 21
     },
     {
       "id": 17,
@@ -156,8 +287,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "billing_account",
       "is_correct_intent": false,
-      "answer": "You can confirm verification emails through your account management dashboard. Suspicious payment activity may temporarily suspend processing. Legitimate discount issues require customer support with manual application.",
-      "response_time": 1.8078079223632812
+      "answer": "You can check your account management dashboard for verification emails. Suspicious payment activity can temporarily suspend payment processing.",
+      "context": [
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management",
+        "confirmations,\n \ninvoice\n \ndelivery,\n \nand\n \naccount\n \nupdates.\n \nNotification\n \nmethods\n \ninclude\n \nemail,\n \nSMS,\n \npush\n \nnotifications,\n \nand\n \nwebhook\n \nintegrations\n \nfor\n \nenterprise\n \ncustomers.\n \nBilling  notifications  are  sent  at  multiple  intervals:  7  days  before  renewal,  payment  \nconfirmation,\n \nand\n \noverdue\n \npayment\n \nreminders.\n \nCritical\n \nbilling\n \nnotifications\n \ncannot\n \nbe\n \ndisabled\n \nbut\n \ncustomers\n \ncan\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods.",
+        "and\n \npotential\n \naccount\n \nsuspension.\n \nLegitimate\n \ndiscount\n \nissues\n \nare\n \nresolved\n \nthrough\n \ncustomer\n \nsupport\n \nwith\n \nmanual\n \napplication\n \nwhen\n \nappropriate.\n \nAddress  and  Contact  Management  \nAddress  Change  Procedures  \nBilling  address  changes  require  verification  through  customer  account  authentication  and  \nmay\n \ntrigger\n \nadditional\n \nsecurity\n \nchecks\n \nfor\n \nfraud\n \nprevention.\n \nAddress\n \nchanges\n \naffect\n \ntax\n \ncalculations\n \nand\n \ncompliance\n \nrequirements\n \nfor"
+      ],
+      "response_time": 3.484607696533203,
+      "context_utilization": 0.09803921568627451,
+      "cosine_similarity": 0.853329327202252,
+      "token_usage": 18
     },
     {
       "id": 18,
@@ -166,7 +305,15 @@
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
       "answer": "You can reset the app to default settings by rolling back changes within 30 minutes of deployment. \n\n",
-      "response_time": 1.258263349533081
+      "context": [
+        "deployment.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nupcoming\n \nupdates\n \nthrough\n \nmultiple\n \nchannels\n \nincluding\n \nemail\n \nnotifications,\n \nin-app\n \nannouncements,\n \nand\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \ntiming\n \nand\n \nexpected\n \nimpact\n \ninformation.\n \nRollback  Policy  and  Procedures  \nIn  the  event  of  update-related  issues,  our  engineering  team  maintains  the  capability  to  \nrollback\n \nchanges\n \nwithin\n \n30\n \nminutes\n \nof\n \ndeployment.\n \nRollback\n \ndecisions\n \nare\n \nmade\n \nby",
+        "troubleshooting\n \nguidance.\n \nCommon\n \nissues\n \nincluding\n \napp\n \ncrashes,\n \nsync\n \nfailures,\n \nand\n \nperformance\n \nproblems\n \nare\n \ntypically\n \nresolved\n \nwithin\n \n48\n \nhours\n \nof\n \ninitial\n \nreport.\n \nSecurity  Patch  Management  \nMobile  applications  receive  automatic  security  updates  through  respective  app  stores,  with  \ncritical\n \nsecurity\n \npatches\n \ndeployed\n \nwithin\n \n72\n \nhours\n \nof\n \nidentification.\n \nUsers\n \nare\n \nnotified\n \nof\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.8021900653839111,
+      "context_utilization": 0.09734513274336283,
+      "cosine_similarity": 0.8237985433658702,
+      "token_usage": 17
     },
     {
       "id": 19,
@@ -174,8 +321,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can check the app version by going to the app settings menu. Version Control and Feature Management allows for semantic versioning with clear documentation of changes, new features, and compatibility requirements. Customers receive advance notice of major version releases with migration guides and compatibility testing resources. Legacy version support is maintained for 12 months after major releases.",
-      "response_time": 1.9852521419525146
+      "answer": "The app version can be checked by viewing the version control and feature management settings within the application. \n\n",
+      "context": [
+        "interaction.\n \nVersion  Control  and  Feature  Management  \nVersioning  Policy  \nAll  software  releases  follow  semantic  versioning  (MAJOR.MINOR.PATCH)  with  clear  \ndocumentation\n \nof\n \nchanges,\n \nnew\n \nfeatures,\n \nand\n \ncompatibility\n \nrequirements.\n \nCustomers\n \nreceive\n \nadvance\n \nnotice\n \nof\n \nmajor\n \nversion\n \nreleases\n \nwith\n \nmigration\n \nguides\n \nand\n \ncompatibility\n \ntesting\n \nresources.\n \nLegacy  version  support  is  maintained  for  12  months  after  major  release  deployment,  with",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support",
+        "of\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications\n \nand\n \nemail\n \nalerts.\n \nSecurity  patches  are  thoroughly  tested  across  supported  device  configurations  before  \nrelease.\n \nOur\n \nsecurity\n \nteam\n \nmaintains\n \na\n \npublic\n \nsecurity\n \nbulletin\n \naccessible\n \nthrough\n \nour\n \nsupport\n \nportal,\n \ndocumenting\n \nall\n \nsecurity\n \nupdates\n \nand\n \ntheir\n \nassociated\n \nfixes.\n \nAuthentication  and  Access  Control  \nLogin  Issue  Resolution"
+      ],
+      "response_time": 1.3765060901641846,
+      "context_utilization": 0.0660377358490566,
+      "cosine_similarity": 0.8340039577142452,
+      "token_usage": 18
     },
     {
       "id": 20,
@@ -183,8 +338,16 @@
       "true_intent": "technical_support",
       "predicted_intent": "technical_support",
       "is_correct_intent": true,
-      "answer": "You can contact technical support directly by sending an email to support@company.com or calling the 1-800-TECH-911 emergency hotline.",
-      "response_time": 1.4959490299224854
+      "answer": "You can contact technical support directly at support@company.com. They offer an emergency hotline at 1-800-TECH-911, status page at status.company.com, and documentation at docs.company.com.",
+      "context": [
+        "Contact  Information  \n\u25cf  Technical  Support :  support@company.com  \u25cf  Emergency  Hotline :  1-800-TECH-911  \u25cf  Status  Page :  status.company.com  \u25cf  Documentation :  docs.company.com  \nPolicy  Updates  \nThis  document  is  reviewed  quarterly  and  updated  as  needed  to  reflect  changes  in  our  \ntechnical\n \ninfrastructure\n \nand\n \nsupport\n \nprocesses.\n \nCustomers\n \nare\n \nnotified\n \nof\n \npolicy\n \nchanges\n \nthrough\n \nemail\n \nand\n \nour\n \ncustomer\n \nportal\n \nannouncements.",
+        "support\n \navailable\n \nfor\n \npremium\n \nservice\n \ntiers.\n \nEmergency  support  requests  are  triaged  immediately  with  response  times  of  15  minutes  for  \ncritical\n \nissues\n \nand\n \n2\n \nhours\n \nfor\n \nstandard\n \ntechnical\n \ninquiries.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \nclear\n \nescalation\n \nprocedures\n \nfor\n \ncomplex\n \ntechnical\n \nissues\n \nrequiring\n \nspecialized\n \nengineering\n \nexpertise.",
+        "Integration  and  Compatibility  \nService  Integration  Support  \nOur  technical  team  provides  comprehensive  support  for  integrating  our  services  with  \nthird-party\n \napplications\n \nand\n \nenterprise\n \nsystems.\n \nIntegration\n \nsupport\n \nincludes\n \nAPI\n \ndocumentation,\n \nsample\n \ncode,\n \nand\n \ndedicated\n \ntechnical\n \nconsultation\n \nfor\n \ncomplex\n \nimplementation\n \nscenarios.\n \nCommon  integration  issues  are  documented  in  our  knowledge  base  with  step-by-step  \ntroubleshooting\n \nguides\n \nand"
+      ],
+      "response_time": 1.566866397857666,
+      "context_utilization": 0.09278350515463918,
+      "cosine_similarity": 0.9175599555028582,
+      "token_usage": 23
     },
     {
       "id": 21,
@@ -192,8 +355,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can update your billing information through email, SMS, push notifications, and webhook integrations. Notifications are sent at multiple intervals, including 7 days before renewal, payment confirmation, and overdue payment reminders. Contact information updates require verification via SMS or voice calls.",
-      "response_time": 1.857151746749878
+      "answer": "You can update your billing information through email, SMS, push notifications, and webhook integrations. Notifications are sent at multiple intervals, including 7 days before renewal, payment confirmation, and overdue payments. Changes to old and new addresses require verification via SMS or voice calls.",
+      "context": [
+        "confirmations,\n \ninvoice\n \ndelivery,\n \nand\n \naccount\n \nupdates.\n \nNotification\n \nmethods\n \ninclude\n \nemail,\n \nSMS,\n \npush\n \nnotifications,\n \nand\n \nwebhook\n \nintegrations\n \nfor\n \nenterprise\n \ncustomers.\n \nBilling  notifications  are  sent  at  multiple  intervals:  7  days  before  renewal,  payment  \nconfirmation,\n \nand\n \noverdue\n \npayment\n \nreminders.\n \nCritical\n \nbilling\n \nnotifications\n \ncannot\n \nbe\n \ndisabled\n \nbut\n \ncustomers\n \ncan\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods.",
+        "old\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates  \nCustomer  contact  information  updates  are  processed  immediately  with  verification  emails  \nsent\n \nto\n \nnew\n \naddresses\n \nbefore\n \nchanges\n \ntake\n \neffect.\n \nPhone\n \nnumber\n \nchanges\n \nrequire\n \nverification\n \nthrough\n \nSMS\n \nor\n \nvoice\n \ncalls\n \nto\n \nprevent\n \nunauthorized\n \nmodifications.\n \nEmergency  contact  information  is  maintained  separately  from  billing  contacts  with  restricted  \naccess\n \nfor\n \nsecurity\n \npurposes.",
+        "and\n \nmay\n \ninclude\n \nquarterly\n \nor\n \nsemi-annual\n \noptions.\n \nBilling  cycle  changes  require  30-day  advance  notice  with  the  new  cycle  taking  effect  at  the  \nnext\n \nrenewal\n \nperiod.\n \nProration\n \ncalculations\n \nensure\n \ncustomers\n \nreceive\n \nappropriate\n \ncredits\n \nor\n \ncharges\n \nfor\n \ntiming\n \ndifferences\n \nbetween\n \nold\n \nand\n \nnew\n \nbilling\n \ncycles.\n \nTax  and  Financial  Compliance  \nTax  Deductions  and  Documentation"
+      ],
+      "response_time": 1.6252589225769043,
+      "context_utilization": 0.2857142857142857,
+      "cosine_similarity": 0.9444361123900541,
+      "token_usage": 43
     },
     {
       "id": 22,
@@ -201,8 +372,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Invoice download options are available through the customer portal and API endpoints for multiple billing periods. You can download invoices in PDF, CSV, and XML formats.",
-      "response_time": 1.5844447612762451
+      "answer": "Invoice download options are available through the customer portal, PDF, CSV, and XML formats. You can also download bulk invoice data through API endpoints for enterprise financial system integration.",
+      "context": [
+        "tax\n \ncompliance.\n \nInvoice  Download  and  Export  Options  \nInvoices  are  available  for  download  in  PDF,  CSV,  and  XML  formats  through  the  customer  \nportal\n \nwith\n \nbulk\n \ndownload\n \noptions\n \nfor\n \nmultiple\n \nbilling\n \nperiods.\n \nAPI\n \nendpoints\n \nprovide\n \nprogrammatic\n \naccess\n \nto\n \ninvoice\n \ndata\n \nfor\n \nenterprise\n \nfinancial\n \nsystem\n \nintegration.\n \nInvoice  archival  includes  searchable  metadata  with  advanced  filtering  by  date,  amount,  \nservice\n \ntype,\n \nand\n \npayment",
+        "Annual\n \ninvoices\n \nare\n \nsent\n \n30\n \ndays\n \nbefore\n \nrenewal\n \nwith\n \npayment\n \ndue\n \n15\n \ndays\n \nbefore\n \nservice\n \nexpiration.\n \nInvoice  delivery  methods  include  email,  customer  portal  download,  and  API  integration  for  \nenterprise\n \ncustomers\n \nrequiring\n \nautomated\n \ninvoice\n \nprocessing.\n \nHard\n \ncopy\n \ninvoices\n \nare\n \navailable\n \nupon\n \nrequest\n \nwith\n \nadditional\n \nprocessing\n \nfees\n \nfor\n \nphysical\n \ndelivery.\n \nAccount  Management  and  Billing  Cycles",
+        "summaries,\n \nproration\n \ncalculations,\n \ntax\n \nbreakdowns,\n \nand\n \npayment\n \ndue\n \ndates.\n \nInvoice  templates  are  customizable  for  enterprise  customers  with  company  branding,  \npurchase\n \norder\n \nreferences,\n \nand\n \ndepartmental\n \nbilling\n \ncodes.\n \nMulti-language\n \ninvoices\n \nare\n \navailable\n \nfor\n \ninternational\n \ncustomers\n \nwith\n \nlocal\n \ncurrency\n \nand\n \ntax\n \ncompliance.\n \nInvoice  Download  and  Export  Options"
+      ],
+      "response_time": 1.4641354084014893,
+      "context_utilization": 0.21649484536082475,
+      "cosine_similarity": 0.8742832185212768,
+      "token_usage": 29
     },
     {
       "id": 23,
@@ -210,8 +389,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can change your subscription plan through your account settings, which are enabled by default. Disabling this feature requires 30-day notice for annual plans, and cancellation requires immediate processing for monthly subscriptions.",
-      "response_time": 1.6882390975952148
+      "answer": "You can change your subscription plan through your account settings, and you need 30 days\u2019 notice for annual plans and can be processed immediately for monthly subscriptions.",
+      "context": [
+        "Auto-renewal  is  enabled  by  default  for  all  subscriptions  with  customers  able  to  disable  this  \nfeature\n \nthrough\n \ntheir\n \naccount\n \nsettings.\n \nCancellation\n \nrequires\n \n30-day\n \nnotice\n \nfor\n \nannual\n \nplans\n \nand\n \ncan\n \nbe\n \nprocessed\n \nimmediately\n \nfor\n \nmonthly\n \nsubscriptions.\n \nCancelled  accounts  maintain  data  access  through  the  end  of  the  paid  period  with  export  \noptions\n \navailable\n \nfor\n \ndata\n \nmigration.\n \nCancellation\n \nconfirmations\n \nare\n \nsent\n \nvia\n \nemail",
+        "delivery.\n \nAccount  Management  and  Billing  Cycles  \nPlan  Upgrades  and  Modifications  \nPlan  upgrades  take  effect  immediately  with  prorated  billing  for  the  remaining  cycle  period.  \nDowngrades\n \nare\n \nprocessed\n \nat\n \nthe\n \nend\n \nof\n \nthe\n \ncurrent\n \nbilling\n \ncycle\n \nto\n \nensure\n \ncontinuous\n \nservice\n \navailability\n \nand\n \nprevent\n \ndata\n \nloss\n \nduring\n \ntransition\n \nperiods.\n \nBilling  adjustments  for  plan  changes  are  calculated  based  on  daily  usage  rates  with  credits",
+        "conversion\n \noptions\n \nand\n \nonboarding\n \nassistance.\n \nExpired  trial  data  is  permanently  deleted  after  30  days  unless  customers  convert  to  paid  \nsubscriptions.\n \nData\n \nexport\n \noptions\n \nare\n \navailable\n \nduring\n \nthe\n \ntrial\n \nperiod\n \nand\n \n30-day\n \ngrace\n \nperiod\n \nfor\n \ncustomers\n \nchoosing\n \nnot\n \nto\n \nconvert.\n \nNotification  Systems  and  Communication  \nBilling  Notification  Preferences  \nCustomers  can  customize  notification  preferences  for  billing  reminders,  payment"
+      ],
+      "response_time": 1.3565309047698975,
+      "context_utilization": 0.1388888888888889,
+      "cosine_similarity": 0.8336121671213446,
+      "token_usage": 27
     },
     {
       "id": 24,
@@ -219,8 +406,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Failed payments are declined due to insufficient funds, expired cards, or bank restrictions. Payment failures trigger retry attempts after 72 hours with customer notifications.",
-      "response_time": 1.3005375862121582
+      "answer": "Failed payments trigger automatic retry attempts after 72 hours with customer notification, payment failures due to insufficient funds, expired cards, or bank restrictions require customer action to resolve before service interruption. Customers receive email notifications with payment details, resolution instructions, and updates.",
+      "context": [
+        "Failed  Payment  Processing  \nFailed  payments  trigger  automatic  retry  attempts  over  72  hours  with  customer  notification  \nafter\n \nthe\n \nfirst\n \nfailure.\n \nPayment\n \nfailures\n \ndue\n \nto\n \ninsufficient\n \nfunds,\n \nexpired\n \ncards,\n \nor\n \nbank\n \nrestrictions\n \nrequire\n \ncustomer\n \naction\n \nto\n \nresolve\n \nbefore\n \nservice\n \ninterruption.\n \nCustomers  receive  email  notifications  for  payment  failures  with  clear  instructions  for  \nresolution\n \nincluding\n \npayment\n \nmethod\n \nupdates\n \nand",
+        "payment\n \namount,\n \nmethod,\n \ntransaction\n \ndate,\n \nand\n \naccount\n \nbalance\n \nupdates.\n \nFailed  payment  notifications  include  specific  error  codes  and  resolution  instructions  with  \nautomatic\n \nretry\n \nscheduling.\n \nPayment\n \nconfirmation\n \nemails\n \nare\n \ncustomizable\n \nwith\n \ncompany\n \nbranding\n \nand\n \ninclude\n \nrelevant\n \ntax\n \ndocumentation\n \nfor\n \nbusiness\n \ncustomers.\n \nMulti-Currency  Transaction  Handling",
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management"
+      ],
+      "response_time": 2.2768077850341797,
+      "context_utilization": 0.33980582524271846,
+      "cosine_similarity": 0.9391928824300642,
+      "token_usage": 42
     },
     {
       "id": 25,
@@ -228,8 +423,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can cancel your subscription through 30-day notice for annual plans and can be processed immediately for monthly subscriptions. Cancellation confirmations are sent via email, and charges, and cancellations within 14 days of initial subscription are prorated based on unused service time.",
-      "response_time": 1.7447350025177002
+      "answer": "You can cancel your subscription through 30-day notice for annual plans and can be processed immediately for monthly subscriptions. Cancellation confirmations are sent via email, and refunds are prorated based on unused service time, while monthly subscriptions receive full refunds when cancelled within the first 14 days.",
+      "context": [
+        "Auto-renewal  is  enabled  by  default  for  all  subscriptions  with  customers  able  to  disable  this  \nfeature\n \nthrough\n \ntheir\n \naccount\n \nsettings.\n \nCancellation\n \nrequires\n \n30-day\n \nnotice\n \nfor\n \nannual\n \nplans\n \nand\n \ncan\n \nbe\n \nprocessed\n \nimmediately\n \nfor\n \nmonthly\n \nsubscriptions.\n \nCancelled  accounts  maintain  data  access  through  the  end  of  the  paid  period  with  export  \noptions\n \navailable\n \nfor\n \ndata\n \nmigration.\n \nCancellation\n \nconfirmations\n \nare\n \nsent\n \nvia\n \nemail",
+        "charges,\n \nand\n \ncancellations\n \nwithin\n \n14\n \ndays\n \nof\n \ninitial\n \nsubscription.\n \nEnterprise\n \ncustomers\n \nwith\n \ncustom\n \nagreements\n \nmay\n \nhave\n \ndifferent\n \nrefund\n \nterms\n \nas\n \nspecified\n \nin\n \ntheir\n \nservice\n \ncontracts.\n \nAnnual  subscription  refunds  are  prorated  based  on  unused  service  time,  while  monthly  \nsubscriptions\n \nreceive\n \nfull\n \nrefunds\n \nwhen\n \ncancelled\n \nwithin\n \nthe\n \nfirst\n \n14\n \ndays.\n \nRefund\n \nrequests\n \nmust\n \nbe\n \nsubmitted\n \nwithin\n \n60\n \ndays\n \nof\n \nthe",
+        "conversion\n \noptions\n \nand\n \nonboarding\n \nassistance.\n \nExpired  trial  data  is  permanently  deleted  after  30  days  unless  customers  convert  to  paid  \nsubscriptions.\n \nData\n \nexport\n \noptions\n \nare\n \navailable\n \nduring\n \nthe\n \ntrial\n \nperiod\n \nand\n \n30-day\n \ngrace\n \nperiod\n \nfor\n \ncustomers\n \nchoosing\n \nnot\n \nto\n \nconvert.\n \nNotification  Systems  and  Communication  \nBilling  Notification  Preferences  \nCustomers  can  customize  notification  preferences  for  billing  reminders,  payment"
+      ],
+      "response_time": 1.7512433528900146,
+      "context_utilization": 0.33035714285714285,
+      "cosine_similarity": 0.9231532173616105,
+      "token_usage": 47
     },
     {
       "id": 26,
@@ -237,8 +440,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Yes, you can request a refund for your last payment. Refund eligibility depends on your subscription type and the length of the cancellation period, as outlined in the document.",
-      "response_time": 1.9935030937194824
+      "answer": "Yes, you can get a refund for your last payment. Refund eligibility depends on your subscription type and the number of days since the initial subscription.\n\n",
+      "context": [
+        "charges,\n \nand\n \ncancellations\n \nwithin\n \n14\n \ndays\n \nof\n \ninitial\n \nsubscription.\n \nEnterprise\n \ncustomers\n \nwith\n \ncustom\n \nagreements\n \nmay\n \nhave\n \ndifferent\n \nrefund\n \nterms\n \nas\n \nspecified\n \nin\n \ntheir\n \nservice\n \ncontracts.\n \nAnnual  subscription  refunds  are  prorated  based  on  unused  service  time,  while  monthly  \nsubscriptions\n \nreceive\n \nfull\n \nrefunds\n \nwhen\n \ncancelled\n \nwithin\n \nthe\n \nfirst\n \n14\n \ndays.\n \nRefund\n \nrequests\n \nmust\n \nbe\n \nsubmitted\n \nwithin\n \n60\n \ndays\n \nof\n \nthe",
+        "Billing  &  Account  Policy  -  Payments  &  \nRefunds\n \nDocument  Information  \n\u25cf  Policy  Type :  Billing  and  Account  Management  \u25cf  Version :  3.2  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Billing  Operations  Team  \n \nRefund  Eligibility  and  Processing  \nRefund  Qualification  Criteria  \nRefunds  are  available  for  service  disruptions  lasting  more  than  4  hours,  billing  errors,  \nduplicate\n \ncharges,\n \nand\n \ncancellations\n \nwithin\n \n14\n \ndays\n \nof",
+        "must\n \nbe\n \nsubmitted\n \nwithin\n \n60\n \ndays\n \nof\n \nthe\n \ncharge\n \ndate\n \nwith\n \nsupporting\n \ndocumentation\n \nfor\n \nservice-related\n \nissues.\n \nRefund  Processing  Timeline  \nStandard  refunds  are  processed  within  5-7  business  days  after  approval,  with  funds  returned  \nto\n \nthe\n \noriginal\n \npayment\n \nmethod.\n \nCredit\n \ncard\n \nrefunds\n \ntypically\n \nappear\n \nwithin\n \n2-3\n \nbusiness\n \ndays,\n \nwhile\n \nbank\n \ntransfers\n \nmay\n \ntake\n \n5-10\n \nbusiness\n \ndays\n \ndepending\n \non\n \nthe\n \nfinancial"
+      ],
+      "response_time": 1.4159789085388184,
+      "context_utilization": 0.10344827586206896,
+      "cosine_similarity": 0.7876089041905034,
+      "token_usage": 26
     },
     {
       "id": 27,
@@ -246,8 +457,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Customers can review stored payment methods and update security settings through their account management dashboard. Verification includes address verification, CVV checks, and fraud detection algorithms. Suspicious payment activity may temporarily suspend processing for security purposes.",
-      "response_time": 1.7555336952209473
+      "answer": "Customers can review stored payment methods and update security settings through their account management dashboard. Payment method verification includes address verification, CVV checks, and fraud detection algorithms. Suspicious payment activity triggers additional verification requirements and may temporarily suspend payment processing for security purposes.",
+      "context": [
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management",
+        "payment\n \namount,\n \nmethod,\n \ntransaction\n \ndate,\n \nand\n \naccount\n \nbalance\n \nupdates.\n \nFailed  payment  notifications  include  specific  error  codes  and  resolution  instructions  with  \nautomatic\n \nretry\n \nscheduling.\n \nPayment\n \nconfirmation\n \nemails\n \nare\n \ncustomizable\n \nwith\n \ncompany\n \nbranding\n \nand\n \ninclude\n \nrelevant\n \ntax\n \ndocumentation\n \nfor\n \nbusiness\n \ncustomers.\n \nMulti-Currency  Transaction  Handling",
+        "transactions\n \ndepending\n \non\n \nthe\n \ncustomer's\n \nbank\n \nand\n \npayment\n \nmethod.\n \nCustomers  can  change  their  billing  currency  at  renewal  periods  with  30-day  advance  notice.  \nCurrency\n \nchanges\n \nmay\n \naffect\n \npricing\n \ndue\n \nto\n \nregional\n \npricing\n \nvariations\n \nand\n \nexchange\n \nrate\n \nfluctuations\n \nbetween\n \nbilling\n \ncycles.\n \nPayment  Issues  and  Resolution  \nFailed  Payment  Processing"
+      ],
+      "response_time": 2.0372166633605957,
+      "context_utilization": 0.36363636363636365,
+      "cosine_similarity": 0.9186367274975962,
+      "token_usage": 43
     },
     {
       "id": 28,
@@ -255,8 +474,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can view your account balance through customer portal, API endpoints, and customer service channels. Detailed balance breakdowns, including pending charges, credits, and upcoming renewals, are available.",
-      "response_time": 1.6054136753082275
+      "answer": "You can view your account balance through the customer portal, API endpoints, and customer service channels. Detailed balance breakdowns including pending charges, credits, and upcoming renewals are available.",
+      "context": [
+        "and\n \ncharges.\n \nBalance\n \nalerts\n \ncan\n \nbe\n \nconfigured\n \nfor\n \nlow\n \nbalance\n \nwarnings,\n \ncredit\n \nexpirations,\n \nand\n \npayment\n \ndue\n \nreminders.\n \nBalance  inquiries  are  available  through  customer  portal,  API  endpoints,  and  customer  \nservice\n \nchannels\n \nwith\n \ndetailed\n \nbalance\n \nbreakdowns\n \nincluding\n \npending\n \ncharges,\n \navailable\n \ncredits,\n \nand\n \nupcoming\n \nrenewals.\n \nCredit  Application  and  Tracking",
+        "Customers  can  view  transaction  history  in  both  original  and  converted  currencies  with  \ndetailed\n \nexchange\n \nrate\n \ninformation.\n \nMulti-currency\n \nreporting\n \nincludes\n \nexchange\n \nrate\n \nimpact\n \nanalysis\n \nfor\n \nbudget\n \nplanning\n \nand\n \nfinancial\n \nreporting\n \npurposes.\n \nAccount  Balance  and  Credit  Management  \nReal-Time  Balance  Monitoring  \nAccount  balances  are  updated  in  real-time  with  immediate  reflection  of  payments,  credits,  \nand\n \ncharges.\n \nBalance\n \nalerts\n \ncan",
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management"
+      ],
+      "response_time": 1.3990182876586914,
+      "context_utilization": 0.19791666666666666,
+      "cosine_similarity": 0.8698382370982887,
+      "token_usage": 28
     },
     {
       "id": 29,
@@ -264,8 +491,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "To reactivate a canceled account, contact customer support through self-service options or by contacting them. Deactivated accounts retain data for 90 days, but permanent deletion occurs after 90 days. You need to pay outstanding balances and late fees to reactivate.",
-      "response_time": 1.7953977584838867
+      "answer": "To reactivate a cancelled account, contact customer support through self-service options or contacting them. Deactivated accounts retain data for 90 days, but permanent deletion occurs after that. Payment of outstanding balances is required before reactivation.",
+      "context": [
+        "purposes.\n \nAccount  Status  and  Suspension  Management  \nAccount  Deactivation  Procedures  \nAccount  deactivation  can  be  initiated  by  customers  through  self-service  options  or  by  \ncontacting\n \ncustomer\n \nsupport.\n \nDeactivation\n \npreserves\n \naccount\n \ndata\n \nfor\n \n90\n \ndays\n \nwith\n \nreactivation\n \navailable\n \nthrough\n \npayment\n \nof\n \noutstanding\n \nbalances.\n \nDeactivated  accounts  lose  access  to  all  services  immediately  but  retain  data  integrity  for  \npotential\n \nreactivation.",
+        "with\n \ndata\n \npreservation\n \nfor\n \n90\n \ndays\n \nbefore\n \npermanent\n \ndeletion.\n \nCustomers  can  avoid  late  fees  by  contacting  our  billing  team  within  the  grace  period  to  \narrange\n \npayment\n \nextensions\n \nor\n \nalternative\n \npayment\n \nschedules.\n \nAccount\n \nreactivation\n \nrequires\n \nfull\n \npayment\n \nof\n \noutstanding\n \nbalances\n \nplus\n \napplicable\n \nlate\n \nfees.\n \nCustomer  Account  Features  \nAuto-Renewal  and  Cancellation",
+        "Auto-renewal  is  enabled  by  default  for  all  subscriptions  with  customers  able  to  disable  this  \nfeature\n \nthrough\n \ntheir\n \naccount\n \nsettings.\n \nCancellation\n \nrequires\n \n30-day\n \nnotice\n \nfor\n \nannual\n \nplans\n \nand\n \ncan\n \nbe\n \nprocessed\n \nimmediately\n \nfor\n \nmonthly\n \nsubscriptions.\n \nCancelled  accounts  maintain  data  access  through  the  end  of  the  paid  period  with  export  \noptions\n \navailable\n \nfor\n \ndata\n \nmigration.\n \nCancellation\n \nconfirmations\n \nare\n \nsent\n \nvia\n \nemail"
+      ],
+      "response_time": 2.3038291931152344,
+      "context_utilization": 0.23,
+      "cosine_similarity": 0.9308318567507344,
+      "token_usage": 35
     },
     {
       "id": 30,
@@ -273,8 +508,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Late fees and account suspension can result from payment method updates and manual payment options.\n\n",
-      "response_time": 1.625255823135376
+      "answer": "You\u2019re being charged twice due to billing management issues. Grace periods and abuse/repeated late payments can result in service suspension.",
+      "context": [
+        "difficulties\n \nwith\n \napproval\n \nfrom\n \nbilling\n \nmanagement.\n \nDuring  grace  periods,  service  functionality  remains  unchanged  with  reminder  notifications  \nsent\n \nevery\n \n48\n \nhours.\n \nGrace\n \nperiod\n \nabuse\n \nor\n \nrepeated\n \nlate\n \npayments\n \nmay\n \nresult\n \nin\n \nimmediate\n \nservice\n \nsuspension\n \nand\n \nremoval\n \nof\n \ngrace\n \nperiod\n \nprivileges.\n \nOverage  and  Usage  Management  \nOverage  Charge  Calculation",
+        "Overage  Charge  Calculation  \nUsage  overages  are  calculated  based  on  actual  consumption  above  plan  limits  with  charges  \napplied\n \nat\n \nthe\n \nend\n \nof\n \neach\n \nbilling\n \ncycle.\n \nOverage\n \nrates\n \nare\n \nclearly\n \ndocumented\n \nin\n \nservice\n \nagreements\n \nwith\n \nreal-time\n \nusage\n \nmonitoring\n \navailable\n \nthrough\n \ncustomer\n \ndashboards.\n \nCustomers  receive  usage  alerts  at  75%,  90%,  and  100%  of  plan  limits  with  options  to  \nupgrade\n \nplans\n \nor\n \npurchase\n \nadditional\n \ncapacity.",
+        "resolution\n \nincluding\n \npayment\n \nmethod\n \nupdates\n \nand\n \nmanual\n \npayment\n \noptions.\n \nServices\n \nremain\n \nactive\n \nduring\n \nthe\n \nretry\n \nperiod\n \nwith\n \ngrace\n \nperiod\n \nextensions\n \navailable\n \nfor\n \nestablished\n \ncustomers.\n \nLate  Fees  and  Account  Suspension  \nLate  fees  of  1.5%  per  month  are  applied  to  overdue  balances  after  a  10-day  grace  period.  \nAccount\n \nsuspension\n \noccurs\n \n30\n \ndays\n \nafter\n \npayment\n \nfailure\n \nwith\n \ndata\n \npreservation\n \nfor\n \n90\n \ndays\n \nbefore"
+      ],
+      "response_time": 1.7324450016021729,
+      "context_utilization": 0.08849557522123894,
+      "cosine_similarity": 0.8524676196188299,
+      "token_usage": 20
     },
     {
       "id": 31,
@@ -282,8 +525,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can get a copy of your billing statement by email, SMS, push notifications, or webhook integrations. Notifications are sent at multiple intervals, including 7 days before renewal, payment confirmation, and overdue payment reminders. \n\n",
-      "response_time": 1.7616512775421143
+      "answer": "You can get a copy of your billing statement by email, SMS, push notifications, and webhook integrations for enterprise customers. Billing notifications are sent at multiple intervals, including weekly and quarterly options.",
+      "context": [
+        "confirmations,\n \ninvoice\n \ndelivery,\n \nand\n \naccount\n \nupdates.\n \nNotification\n \nmethods\n \ninclude\n \nemail,\n \nSMS,\n \npush\n \nnotifications,\n \nand\n \nwebhook\n \nintegrations\n \nfor\n \nenterprise\n \ncustomers.\n \nBilling  notifications  are  sent  at  multiple  intervals:  7  days  before  renewal,  payment  \nconfirmation,\n \nand\n \noverdue\n \npayment\n \nreminders.\n \nCritical\n \nbilling\n \nnotifications\n \ncannot\n \nbe\n \ndisabled\n \nbut\n \ncustomers\n \ncan\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods.",
+        "and\n \nmay\n \ninclude\n \nquarterly\n \nor\n \nsemi-annual\n \noptions.\n \nBilling  cycle  changes  require  30-day  advance  notice  with  the  new  cycle  taking  effect  at  the  \nnext\n \nrenewal\n \nperiod.\n \nProration\n \ncalculations\n \nensure\n \ncustomers\n \nreceive\n \nappropriate\n \ncredits\n \nor\n \ncharges\n \nfor\n \ntiming\n \ndifferences\n \nbetween\n \nold\n \nand\n \nnew\n \nbilling\n \ncycles.\n \nTax  and  Financial  Compliance  \nTax  Deductions  and  Documentation",
+        "holds\n \nwhile\n \nnew\n \npayment\n \ninformation\n \nis\n \nvalidated.\n \nCustomers\n \ncan\n \nmaintain\n \nmultiple\n \npayment\n \nmethods\n \nwith\n \nspecified\n \nprimary\n \nand\n \nbackup\n \noptions\n \nfor\n \nbilling\n \nredundancy.\n \nInvoice  Timing  and  Delivery  \nMonthly  invoices  are  generated  on  the  same  date  each  month  based  on  the  original  \nsubscription\n \ndate,\n \nwith\n \ninvoices\n \ndelivered\n \nelectronically\n \nwithin\n \n24\n \nhours\n \nof\n \ngeneration.\n \nAnnual\n \ninvoices\n \nare\n \nsent\n \n30\n \ndays\n \nbefore\n \nrenewal"
+      ],
+      "response_time": 1.4538729190826416,
+      "context_utilization": 0.17857142857142858,
+      "cosine_similarity": 0.8701313923457984,
+      "token_usage": 32
     },
     {
       "id": 32,
@@ -291,8 +542,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can update your tax information through 24-hour processing with confirmation notifications. Corporate customers can maintain multiple billing addresses with centralized account management. Billing cycle changes require 30-day advance notice, and proration calculations ensure customers receive appropriate credits.",
-      "response_time": 2.2980222702026367
+      "answer": "You can update your tax information through 24-hour processing with confirmation notifications. Corporate customers can maintain multiple billing addresses for different departments with centralized account management. Billing cycle changes require 30-day advance notice to ensure proper proration calculations.",
+      "context": [
+        "tax\n \ncalculations\n \nand\n \ncompliance\n \nrequirements\n \nfor\n \ndifferent\n \njurisdictions.\n \nCorporate  customers  can  maintain  multiple  billing  addresses  for  different  departments  or  \nsubsidiaries\n \nwith\n \ncentralized\n \naccount\n \nmanagement.\n \nAddress\n \nchanges\n \nare\n \nprocessed\n \nwithin\n \n24\n \nhours\n \nwith\n \nconfirmation\n \nnotifications\n \nsent\n \nto\n \nboth\n \nold\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates",
+        "and\n \nmay\n \ninclude\n \nquarterly\n \nor\n \nsemi-annual\n \noptions.\n \nBilling  cycle  changes  require  30-day  advance  notice  with  the  new  cycle  taking  effect  at  the  \nnext\n \nrenewal\n \nperiod.\n \nProration\n \ncalculations\n \nensure\n \ncustomers\n \nreceive\n \nappropriate\n \ncredits\n \nor\n \ncharges\n \nfor\n \ntiming\n \ndifferences\n \nbetween\n \nold\n \nand\n \nnew\n \nbilling\n \ncycles.\n \nTax  and  Financial  Compliance  \nTax  Deductions  and  Documentation",
+        "processing,\n \ntax\n \nregulations,\n \nand\n \ncustomer\n \nservice\n \nimprovements.\n \nPolicy\n \nchanges\n \nare\n \ncommunicated\n \n30\n \ndays\n \nin\n \nadvance\n \nthrough\n \nemail\n \nand\n \ncustomer\n \nportal\n \nnotifications."
+      ],
+      "response_time": 1.570495367050171,
+      "context_utilization": 0.3333333333333333,
+      "cosine_similarity": 0.9466688250884856,
+      "token_usage": 38
     },
     {
       "id": 33,
@@ -300,8 +559,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can set up automatic payments through email notifications and customization options. \n\nHere\u2019s how: Email receipts are automatically generated, include detailed transaction information, and allow for adjustments to frequency and delivery methods.",
-      "response_time": 1.7288508415222168
+      "answer": "You can set up automatic payments through email notifications and customization options. These include detailed transaction information and tax calculations. Payment confirmation emails are customizable with branding.",
+      "context": [
+        "Failed  Payment  Processing  \nFailed  payments  trigger  automatic  retry  attempts  over  72  hours  with  customer  notification  \nafter\n \nthe\n \nfirst\n \nfailure.\n \nPayment\n \nfailures\n \ndue\n \nto\n \ninsufficient\n \nfunds,\n \nexpired\n \ncards,\n \nor\n \nbank\n \nrestrictions\n \nrequire\n \ncustomer\n \naction\n \nto\n \nresolve\n \nbefore\n \nservice\n \ninterruption.\n \nCustomers  receive  email  notifications  for  payment  failures  with  clear  instructions  for  \nresolution\n \nincluding\n \npayment\n \nmethod\n \nupdates\n \nand",
+        "can\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods.\n \nEmail  Receipt  and  Documentation  \nElectronic  receipts  are  automatically  generated  for  all  transactions  and  sent  within  15  \nminutes\n \nof\n \npayment\n \nprocessing.\n \nReceipts\n \ninclude\n \ndetailed\n \ntransaction\n \ninformation,\n \ntax\n \ncalculations,\n \nand\n \ncustomer\n \naccount\n \ndetails\n \nrequired\n \nfor\n \nexpense\n \nreporting.\n \nReceipt  customization  options  include  company  logo  integration,  custom  messaging,  and  \nmultiple\n \nemail",
+        "payment\n \namount,\n \nmethod,\n \ntransaction\n \ndate,\n \nand\n \naccount\n \nbalance\n \nupdates.\n \nFailed  payment  notifications  include  specific  error  codes  and  resolution  instructions  with  \nautomatic\n \nretry\n \nscheduling.\n \nPayment\n \nconfirmation\n \nemails\n \nare\n \ncustomizable\n \nwith\n \ncompany\n \nbranding\n \nand\n \ninclude\n \nrelevant\n \ntax\n \ndocumentation\n \nfor\n \nbusiness\n \ncustomers.\n \nMulti-Currency  Transaction  Handling"
+      ],
+      "response_time": 1.3312156200408936,
+      "context_utilization": 0.1650485436893204,
+      "cosine_similarity": 0.8015669773457696,
+      "token_usage": 27
     },
     {
       "id": 34,
@@ -309,8 +576,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can change your account email address through customer support with manual application, verification through customer account authentication, and may trigger additional security checks for fraud prevention. Address changes affect tax calculations and compliance requirements for old and new addresses.",
-      "response_time": 1.7688002586364746
+      "answer": "You can change your account email address through customer support with manual application when appropriate. Address changes require verification through customer account authentication and may trigger additional security checks for fraud prevention. Contact information updates are processed immediately with verification emails sent to new addresses before changes take effect. Phone number changes require verification through SMS or voice calls to prevent unauthorized modifications.",
+      "context": [
+        "and\n \npotential\n \naccount\n \nsuspension.\n \nLegitimate\n \ndiscount\n \nissues\n \nare\n \nresolved\n \nthrough\n \ncustomer\n \nsupport\n \nwith\n \nmanual\n \napplication\n \nwhen\n \nappropriate.\n \nAddress  and  Contact  Management  \nAddress  Change  Procedures  \nBilling  address  changes  require  verification  through  customer  account  authentication  and  \nmay\n \ntrigger\n \nadditional\n \nsecurity\n \nchecks\n \nfor\n \nfraud\n \nprevention.\n \nAddress\n \nchanges\n \naffect\n \ntax\n \ncalculations\n \nand\n \ncompliance\n \nrequirements\n \nfor",
+        "old\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates  \nCustomer  contact  information  updates  are  processed  immediately  with  verification  emails  \nsent\n \nto\n \nnew\n \naddresses\n \nbefore\n \nchanges\n \ntake\n \neffect.\n \nPhone\n \nnumber\n \nchanges\n \nrequire\n \nverification\n \nthrough\n \nSMS\n \nor\n \nvoice\n \ncalls\n \nto\n \nprevent\n \nunauthorized\n \nmodifications.\n \nEmergency  contact  information  is  maintained  separately  from  billing  contacts  with  restricted  \naccess\n \nfor\n \nsecurity\n \npurposes.",
+        "tax\n \ncalculations\n \nand\n \ncompliance\n \nrequirements\n \nfor\n \ndifferent\n \njurisdictions.\n \nCorporate  customers  can  maintain  multiple  billing  addresses  for  different  departments  or  \nsubsidiaries\n \nwith\n \ncentralized\n \naccount\n \nmanagement.\n \nAddress\n \nchanges\n \nare\n \nprocessed\n \nwithin\n \n24\n \nhours\n \nwith\n \nconfirmation\n \nnotifications\n \nsent\n \nto\n \nboth\n \nold\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates"
+      ],
+      "response_time": 1.8589706420898438,
+      "context_utilization": 0.5393258426966292,
+      "cosine_similarity": 0.9077456956279879,
+      "token_usage": 63
     },
     {
       "id": 35,
@@ -318,8 +593,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can check your payment history through customer support, which provides historical invoice retrieval and payment status. Payment processing and confirmation procedures are sent immediately upon successful transaction processing with unique confirmation numbers. Customers can review stored payment methods and update security settings through their account management dashboard.",
-      "response_time": 1.8766984939575195
+      "answer": "Yes, you can check your payment history through customer support. Historical invoice retrieval is available through the customer portal.",
+      "context": [
+        "service\n \ntype,\n \nand\n \npayment\n \nstatus.\n \nHistorical\n \ninvoice\n \nretrieval\n \nis\n \navailable\n \nthrough\n \ncustomer\n \nsupport\n \nfor\n \nperiods\n \nbeyond\n \nonline\n \nportal\n \naccess.\n \nPayment  Processing  and  Confirmation  \nPayment  Confirmation  Procedures  \nPayment  confirmations  are  sent  immediately  upon  successful  transaction  processing  with  \nunique\n \nconfirmation\n \nnumbers\n \nfor\n \ncustomer\n \nrecords.\n \nConfirmation\n \ndetails\n \ninclude\n \npayment\n \namount,\n \nmethod,\n \ntransaction\n \ndate,\n \nand",
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management",
+        "Transaction  history  is  accessible  through  the  customer  portal  with  advanced  filtering  options  \nby\n \ndate\n \nrange,\n \ntransaction\n \ntype,\n \namount,\n \nand\n \npayment\n \nmethod.\n \nHistorical\n \ndata\n \nretention\n \nspans\n \n7\n \nyears\n \nfor\n \ntax\n \ncompliance\n \nwith\n \ndownloadable\n \nreports\n \navailable\n \nin\n \nmultiple\n \nformats.\n \nEnterprise  customers  receive  enhanced  transaction  reporting  with  API  access  for  automated  \nfinancial\n \nsystem\n \nintegration.\n \nCustom\n \nreporting\n \nincludes\n \nusage"
+      ],
+      "response_time": 1.6762211322784424,
+      "context_utilization": 0.10377358490566038,
+      "cosine_similarity": 0.8509283974676574,
+      "token_usage": 19
     },
     {
       "id": 36,
@@ -327,8 +610,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "You can apply a promo code through the developer dashboard, where rate limits are reset at the top of each hour. Customers can monitor usage through the developer dashboard and request temporary access codes for 24 hours if they experience rate limits.",
-      "response_time": 1.9642984867095947
+      "answer": "You can apply a promo code through the developer dashboard, where rate limits are reset at the top of each hour. Customers can monitor usage through the developer dashboard.",
+      "context": [
+        "Standard\n \naccounts\n \nreceive\n \n1,000\n \nrequests\n \nper\n \nhour,\n \nwhile\n \npremium\n \naccounts\n \nare\n \nallocated\n \n10,000\n \nrequests\n \nper\n \nhour.\n \nRate\n \nlimits\n \nreset\n \nat\n \nthe\n \ntop\n \nof\n \neach\n \nhour,\n \nand\n \ncustomers\n \ncan\n \nmonitor\n \ntheir\n \nusage\n \nthrough\n \nthe\n \ndeveloper\n \ndashboard.\n \nWhen  approaching  rate  limits,  the  API  returns  HTTP  429  status  codes  with  headers  \nindicating\n \nwhen\n \nlimits\n \nwill\n \nreset.\n \nCustomers\n \nexperiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould",
+        "reconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS\n \ncodes,\n \nand\n \nhardware\n \nsecurity\n \nkeys\n \nacross\n \nall\n \nsupported\n \nplatforms.\n \nCustomers  experiencing  2FA  failures  can  request  temporary  access  codes  valid  for  24  hours  \nwhile\n \nresolving\n \ntheir\n \nauthentication\n \nsetup.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ndocumentation\n \nfor\n \nall\n \nsupported\n \n2FA\n \nmethods\n \nand\n \ncan\n \nprovide\n \nstep-by-step\n \nconfiguration\n \nguidance.",
+        "deployment.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nupcoming\n \nupdates\n \nthrough\n \nmultiple\n \nchannels\n \nincluding\n \nemail\n \nnotifications,\n \nin-app\n \nannouncements,\n \nand\n \nour\n \npublic\n \nstatus\n \npage\n \nwith\n \ndetailed\n \ntiming\n \nand\n \nexpected\n \nimpact\n \ninformation.\n \nRollback  Policy  and  Procedures  \nIn  the  event  of  update-related  issues,  our  engineering  team  maintains  the  capability  to  \nrollback\n \nchanges\n \nwithin\n \n30\n \nminutes\n \nof\n \ndeployment.\n \nRollback\n \ndecisions\n \nare\n \nmade\n \nby"
+      ],
+      "response_time": 1.3804137706756592,
+      "context_utilization": 0.14285714285714285,
+      "cosine_similarity": 0.8286007595948128,
+      "token_usage": 29
     },
     {
       "id": 37,
@@ -336,8 +627,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Yes, you can remove a saved payment method through the account management dashboard. Contact the billing team within the grace period to arrange payment extensions or alternative payment schedules.",
-      "response_time": 1.8454174995422363
+      "answer": "You can remove saved payment methods by contacting the billing team within the grace period to arrange payment extensions or alternative payment schedules.\n",
+      "context": [
+        "with\n \ndata\n \npreservation\n \nfor\n \n90\n \ndays\n \nbefore\n \npermanent\n \ndeletion.\n \nCustomers  can  avoid  late  fees  by  contacting  our  billing  team  within  the  grace  period  to  \narrange\n \npayment\n \nextensions\n \nor\n \nalternative\n \npayment\n \nschedules.\n \nAccount\n \nreactivation\n \nrequires\n \nfull\n \npayment\n \nof\n \noutstanding\n \nbalances\n \nplus\n \napplicable\n \nlate\n \nfees.\n \nCustomer  Account  Features  \nAuto-Renewal  and  Cancellation",
+        "payments.\n \nCustomers\n \ncan\n \nreview\n \nstored\n \npayment\n \nmethods\n \nand\n \nupdate\n \nsecurity\n \nsettings\n \nthrough\n \ntheir\n \naccount\n \nmanagement\n \ndashboard.\n \nPayment  method  verification  includes  address  verification,  CVV  checks,  and  fraud  detection  \nalgorithms.\n \nSuspicious\n \npayment\n \nactivity\n \ntriggers\n \nadditional\n \nverification\n \nrequirements\n \nand\n \nmay\n \ntemporarily\n \nsuspend\n \npayment\n \nprocessing\n \nfor\n \nsecurity\n \npurposes.\n \nAccount  Status  and  Suspension  Management",
+        "conversion\n \noptions\n \nand\n \nonboarding\n \nassistance.\n \nExpired  trial  data  is  permanently  deleted  after  30  days  unless  customers  convert  to  paid  \nsubscriptions.\n \nData\n \nexport\n \noptions\n \nare\n \navailable\n \nduring\n \nthe\n \ntrial\n \nperiod\n \nand\n \n30-day\n \ngrace\n \nperiod\n \nfor\n \ncustomers\n \nchoosing\n \nnot\n \nto\n \nconvert.\n \nNotification  Systems  and  Communication  \nBilling  Notification  Preferences  \nCustomers  can  customize  notification  preferences  for  billing  reminders,  payment"
+      ],
+      "response_time": 1.250565767288208,
+      "context_utilization": 0.1588785046728972,
+      "cosine_similarity": 0.8279886444758308,
+      "token_usage": 23
     },
     {
       "id": 38,
@@ -345,8 +644,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "Receipts are automatically generated and sent within 15 minutes of payment processing. They include detailed transaction information, tax calculations, and customer account details needed for expense reporting. Historical invoice retrieval is available through customer support for periods beyond online portal access. Receipts are archived for 7 years with online access through the customer portal.",
-      "response_time": 1.7825214862823486
+      "answer": "Receipts are automatically generated within 15 minutes of payment processing and include detailed transaction information, tax calculations, and customer account details for expense reporting. You can customize them with company logos, messaging, and email service type. Historical invoice retrieval is available through customer support for periods beyond online portal access.",
+      "context": [
+        "can\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods.\n \nEmail  Receipt  and  Documentation  \nElectronic  receipts  are  automatically  generated  for  all  transactions  and  sent  within  15  \nminutes\n \nof\n \npayment\n \nprocessing.\n \nReceipts\n \ninclude\n \ndetailed\n \ntransaction\n \ninformation,\n \ntax\n \ncalculations,\n \nand\n \ncustomer\n \naccount\n \ndetails\n \nrequired\n \nfor\n \nexpense\n \nreporting.\n \nReceipt  customization  options  include  company  logo  integration,  custom  messaging,  and  \nmultiple\n \nemail",
+        "service\n \ntype,\n \nand\n \npayment\n \nstatus.\n \nHistorical\n \ninvoice\n \nretrieval\n \nis\n \navailable\n \nthrough\n \ncustomer\n \nsupport\n \nfor\n \nperiods\n \nbeyond\n \nonline\n \nportal\n \naccess.\n \nPayment  Processing  and  Confirmation  \nPayment  Confirmation  Procedures  \nPayment  confirmations  are  sent  immediately  upon  successful  transaction  processing  with  \nunique\n \nconfirmation\n \nnumbers\n \nfor\n \ncustomer\n \nrecords.\n \nConfirmation\n \ndetails\n \ninclude\n \npayment\n \namount,\n \nmethod,\n \ntransaction\n \ndate,\n \nand",
+        "multiple\n \nemail\n \nrecipient\n \naddresses\n \nfor\n \ncorporate\n \naccounts.\n \nReceipt\n \narchival\n \nis\n \nmaintained\n \nfor\n \n7\n \nyears\n \nwith\n \nonline\n \naccess\n \nthrough\n \nthe\n \ncustomer\n \nportal.\n \nPayment  Processing  and  Banking  \nBank  Transfer  Procedures  \nBank  transfers  are  processed  through  secure  banking  networks  with  transaction  verification  \nand\n \nfraud\n \nprotection\n \nmeasures.\n \nTransfer\n \ninstructions\n \nare\n \nprovided\n \nthrough\n \nthe\n \ncustomer\n \nportal\n \nwith\n \nunique\n \nreference"
+      ],
+      "response_time": 1.7799031734466553,
+      "context_utilization": 0.41836734693877553,
+      "cosine_similarity": 0.8927890042758463,
+      "token_usage": 50
     },
     {
       "id": 39,
@@ -354,8 +661,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "billing_account",
       "is_correct_intent": true,
-      "answer": "You can update your billing address through email, SMS, or voice calls. Confirmation notifications are sent to both old and new addresses. Updates are processed within 24 hours with notifications.",
-      "response_time": 1.4320850372314453
+      "answer": "You can update your billing address through email, SMS, or webhook integrations. Notifications are sent at multiple intervals.\n",
+      "context": [
+        "old\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates  \nCustomer  contact  information  updates  are  processed  immediately  with  verification  emails  \nsent\n \nto\n \nnew\n \naddresses\n \nbefore\n \nchanges\n \ntake\n \neffect.\n \nPhone\n \nnumber\n \nchanges\n \nrequire\n \nverification\n \nthrough\n \nSMS\n \nor\n \nvoice\n \ncalls\n \nto\n \nprevent\n \nunauthorized\n \nmodifications.\n \nEmergency  contact  information  is  maintained  separately  from  billing  contacts  with  restricted  \naccess\n \nfor\n \nsecurity\n \npurposes.",
+        "tax\n \ncalculations\n \nand\n \ncompliance\n \nrequirements\n \nfor\n \ndifferent\n \njurisdictions.\n \nCorporate  customers  can  maintain  multiple  billing  addresses  for  different  departments  or  \nsubsidiaries\n \nwith\n \ncentralized\n \naccount\n \nmanagement.\n \nAddress\n \nchanges\n \nare\n \nprocessed\n \nwithin\n \n24\n \nhours\n \nwith\n \nconfirmation\n \nnotifications\n \nsent\n \nto\n \nboth\n \nold\n \nand\n \nnew\n \naddresses.\n \nContact  Information  Updates",
+        "confirmations,\n \ninvoice\n \ndelivery,\n \nand\n \naccount\n \nupdates.\n \nNotification\n \nmethods\n \ninclude\n \nemail,\n \nSMS,\n \npush\n \nnotifications,\n \nand\n \nwebhook\n \nintegrations\n \nfor\n \nenterprise\n \ncustomers.\n \nBilling  notifications  are  sent  at  multiple  intervals:  7  days  before  renewal,  payment  \nconfirmation,\n \nand\n \noverdue\n \npayment\n \nreminders.\n \nCritical\n \nbilling\n \nnotifications\n \ncannot\n \nbe\n \ndisabled\n \nbut\n \ncustomers\n \ncan\n \nadjust\n \nfrequency\n \nand\n \ndelivery\n \nmethods."
+      ],
+      "response_time": 1.4818191528320312,
+      "context_utilization": 0.13,
+      "cosine_similarity": 0.8793566278173741,
+      "token_usage": 18
     },
     {
       "id": 40,
@@ -363,8 +678,16 @@
       "true_intent": "billing_account",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "You can contact billing support at support@company.com. They provide technical support, emergency hotline 1-800-TECH-911, and status page at status.company.com. You can also request SMS-based recovery codes for complex issues.",
-      "response_time": 1.6637799739837646
+      "answer": "You can contact billing support at support@company.com or 1-800-TECH-911.",
+      "context": [
+        "Contact  Information  \n\u25cf  Technical  Support :  support@company.com  \u25cf  Emergency  Hotline :  1-800-TECH-911  \u25cf  Status  Page :  status.company.com  \u25cf  Documentation :  docs.company.com  \nPolicy  Updates  \nThis  document  is  reviewed  quarterly  and  updated  as  needed  to  reflect  changes  in  our  \ntechnical\n \ninfrastructure\n \nand\n \nsupport\n \nprocesses.\n \nCustomers\n \nare\n \nnotified\n \nof\n \npolicy\n \nchanges\n \nthrough\n \nemail\n \nand\n \nour\n \ncustomer\n \nportal\n \nannouncements.",
+        "support\n \navailable\n \nfor\n \npremium\n \nservice\n \ntiers.\n \nEmergency  support  requests  are  triaged  immediately  with  response  times  of  15  minutes  for  \ncritical\n \nissues\n \nand\n \n2\n \nhours\n \nfor\n \nstandard\n \ntechnical\n \ninquiries.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \nclear\n \nescalation\n \nprocedures\n \nfor\n \ncomplex\n \ntechnical\n \nissues\n \nrequiring\n \nspecialized\n \nengineering\n \nexpertise.",
+        "verification,\n \nsecurity\n \nquestions,\n \nand\n \nSMS-based\n \nrecovery\n \ncodes.\n \nWhen\n \nautomated\n \nrecovery\n \nfails,\n \ncustomers\n \ncan\n \nrequest\n \nmanual\n \naccount\n \nverification\n \nthrough\n \nour\n \nsupport\n \nticket\n \nsystem.\n \nTwo-Factor  Authentication  Support  \n2FA  configuration  issues  are  handled  by  our  security-specialized  support  agents  who  can  \nverify\n \nidentity\n \nthrough\n \nalternative\n \nmethods\n \nand\n \nassist\n \nwith\n \ndevice\n \nreconfiguration.\n \nWe\n \nsupport\n \nauthenticator\n \napps,\n \nSMS"
+      ],
+      "response_time": 1.367868423461914,
+      "context_utilization": 0.037383177570093455,
+      "cosine_similarity": 0.8381123441180894,
+      "token_usage": 9
     },
     {
       "id": 41,
@@ -372,8 +695,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the app can be added in dark mode through support resources and community collaboration.\n\n",
-      "response_time": 1.1826436519622803
+      "answer": "Yes, the context states that alternative solutions include implementation guides and support resources.",
+      "context": [
+        "third-party\n \nintegrations,\n \nor\n \ncustom\n \ndevelopment\n \noptions.\n \nAlternative\n \nsolutions\n \ninclude\n \nimplementation\n \nguides\n \nand\n \nsupport\n \nresources.\n \nAlternative  solution  development  includes  community  collaboration  and  customer  success  \nteam\n \ninvolvement.\n \nAlte\n \n \nContact  Information  \n\u25cf  Feature  Requests :  features@company.com  \u25cf  Product  Feedback :  feedback@company.com  \u25cf  Beta  Program :  beta@company.com  \u25cf  Product  Portal :  portal.company.com  \nPolicy  Updates",
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt."
+      ],
+      "response_time": 2.453498363494873,
+      "context_utilization": 0.07476635514018691,
+      "cosine_similarity": 0.7069833970276224,
+      "token_usage": 13
     },
     {
       "id": 42,
@@ -381,8 +712,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "Integration and Compatibility.\nService Integration Support.\nThe context states that integration support includes API documentation, sample code, and dedicated technical consultation.\n",
-      "response_time": 1.4269967079162598
+      "answer": "Integration and compatibility support is provided. \nService integration support includes API documentation, sample code, and technical consultation. \nCommon integration issues are documented in the knowledge base.\n",
+      "context": [
+        "Integration  and  Compatibility  \nService  Integration  Support  \nOur  technical  team  provides  comprehensive  support  for  integrating  our  services  with  \nthird-party\n \napplications\n \nand\n \nenterprise\n \nsystems.\n \nIntegration\n \nsupport\n \nincludes\n \nAPI\n \ndocumentation,\n \nsample\n \ncode,\n \nand\n \ndedicated\n \ntechnical\n \nconsultation\n \nfor\n \ncomplex\n \nimplementation\n \nscenarios.\n \nCommon  integration  issues  are  documented  in  our  knowledge  base  with  step-by-step  \ntroubleshooting\n \nguides\n \nand",
+        "experiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould\n \ncontact\n \nour\n \ntechnical\n \nsupport\n \nteam\n \nto\n \ndiscuss\n \nupgrading\n \ntheir\n \nservice\n \ntier\n \nor\n \nimplementing\n \nrequest\n \noptimization\n \nstrategies.\n \nBrowser  Compatibility  Matrix  \nWe  maintain  active  support  for  the  latest  two  major  versions  of  Chrome,  Firefox,  Safari,  and  \nEdge\n \nbrowsers.\n \nInternet\n \nExplorer\n \nsupport\n \nwas\n \ndiscontinued\n \nas\n \nof\n \nJanuary\n \n2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.5502004623413086,
+      "context_utilization": 0.16363636363636364,
+      "cosine_similarity": 0.8392593983098765,
+      "token_usage": 26
     },
     {
       "id": 43,
@@ -390,8 +729,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "Yes, our support is available in English, Spanish, French, German, Japanese, and Mandarin.\n\n",
-      "response_time": 1.2239267826080322
+      "answer": "Yes, the context states that multi-language support is available in English, Spanish, French, German, Japanese, and Mandarin.",
+      "context": [
+        "capabilities.\n \nIn\n \nthe\n \nevent\n \nof\n \ndata\n \nrecovery\n \nneeds,\n \ncustomers\n \nare\n \nnotified\n \nof\n \nthe\n \nrecovery\n \nprocess\n \ntimeline\n \nand\n \nany\n \nactions\n \nrequired\n \nto\n \nrestore\n \ntheir\n \nservice\n \nfunctionality.\n \nSupport  Infrastructure  and  Languages  \nMulti-Language  Support  Capabilities  \nTechnical  support  is  available  in  English,  Spanish,  French,  German,  Japanese,  and  \nMandarin\n \nChinese\n \nwith\n \nnative\n \nspeakers\n \navailable\n \nduring\n \nrespective\n \nregional\n \nbusiness\n \nhours.",
+        "during\n \nrespective\n \nregional\n \nbusiness\n \nhours.\n \nSpecialized\n \ntechnical\n \nterminology\n \nis\n \nmaintained\n \nin\n \nmultilingual\n \ndocumentation\n \naccessible\n \nthrough\n \nour\n \nsupport\n \nportal.\n \nOur  support  team  uses  advanced  translation  tools  for  languages  not  covered  by  native  \nspeakers,\n \nwith\n \nescalation\n \nprocedures\n \nto\n \nnative\n \nlanguage\n \nspecialists\n \nwhen\n \ncomplex\n \ntechnical\n \nissues\n \nrequire\n \ndetailed\n \ncommunication.\n \nAll\n \nsupport\n \ndocumentation\n \nis\n \nprofessionally",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.2890217304229736,
+      "context_utilization": 0.10810810810810811,
+      "cosine_similarity": 0.85292821911646,
+      "token_usage": 17
     },
     {
       "id": 44,
@@ -399,8 +746,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, it is possible to have a desktop version. The context states that \u201cReleased features receive ongoing support including bug fixes, performance improvements, and user experience enhancements.\u201d",
-      "response_time": 1.4371535778045654
+      "answer": "Yes, desktop versions are possible. The text describes a process for releasing features with regular support and updates.\n",
+      "context": [
+        "for\n \ntechnical\n \nchallenges\n \nand\n \nresource\n \nconstraints.\n \nCommitment  updates  are  communicated  proactively  with  detailed  explanations  for  any  \nchanges.\n \nCustomers\n \nreceive\n \nregular\n \nprogress\n \nreports\n \nand\n \nrevised\n \ndelivery\n \nestimates\n \nwhen\n \nnecessary.\n \nPost-Release  Support  and  Iteration  \nReleased  features  receive  ongoing  support  including  bug  fixes,  performance  improvements,  \nand\n \nuser\n \nexperience\n \nenhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated",
+        "details,\n \nand\n \nmigration\n \nguides\n \nfor\n \nexisting\n \ncustomers.\n \nDocumentation  includes  video  tutorials,  setup  guides,  and  frequently  asked  questions  to  \nsupport\n \ncustomer\n \nadoption.\n \nRelease\n \ndocumentation\n \nis\n \navailable\n \nin\n \nmultiple\n \nformats\n \nincluding\n \nweb-based\n \nguides,\n \nPDF\n \ndownloads,\n \nand\n \ninteractive\n \ntutorials.\n \nPhased  Release  Strategy  \nNew  features  are  released  using  phased  deployment  strategies  starting  with  limited  \ncustomer\n \ngroups\n \nand",
+        "and\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.\n \nDocumentation  Requirements  \nComplete  feature  requests  include  problem  statements,  proposed  solutions,  success  \nmetrics,\n \nand\n \nbusiness\n \njustification.\n \nTechnical\n \nrequirements\n \nshould\n \nspecify\n \nplatform\n \ncompatibility,\n \nperformance\n \nexpectations,\n \nand\n \nsecurity\n \nconsiderations.\n \nVisual  mockups,  workflow  diagrams,  and  user  journey  maps  enhance  request  evaluation  \nand\n \nincrease\n \nimplementation\n \nlikelihood."
+      ],
+      "response_time": 1.2422504425048828,
+      "context_utilization": 0.0603448275862069,
+      "cosine_similarity": 0.7888563856532277,
+      "token_usage": 18
     },
     {
       "id": 45,
@@ -408,8 +763,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context mentions the ability to track feature progress through dashboards and email summaries. However, it does not explicitly state whether a calendar sync feature is available. The context primarily focuses on feature release alerts and timeline updates.",
-      "response_time": 1.7492103576660156
+      "answer": "Yes, the context mentions the ability to track submitted requests with real-time status updates and milestone notifications. However, it does not provide details about adding a calendar sync feature. The context focuses on feature release management and communication.",
+      "context": [
+        "can\n \ntrack\n \ntheir\n \nsubmitted\n \nrequests\n \nwith\n \nreal-time\n \nstatus\n \nupdates\n \nand\n \nmilestone\n \nnotifications.\n \nDuplicate  Request  Management",
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "Timeline  Communication  and  Updates  \nFeature  development  timelines  are  communicated  through  roadmap  publications,  customer  \nnewsletters,\n \nand\n \nproduct\n \nupdate\n \nannouncements.\n \nTimeline\n \nupdates\n \ninclude\n \nprogress\n \nreports,\n \nscope\n \nchanges,\n \nand\n \ndelivery\n \ndate\n \nadjustments.\n \nDelayed  features  receive  detailed  explanations  including  technical  challenges,  resource  \nconstraints,\n \nand\n \nrevised\n \ntimeline\n \nestimates.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nsignificant"
+      ],
+      "response_time": 1.5144009590148926,
+      "context_utilization": 0.19480519480519481,
+      "cosine_similarity": 0.8085596451206744,
+      "token_usage": 38
     },
     {
       "id": 46,
@@ -417,8 +780,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "The context describes the policy for submitting mobile widgets. It outlines the submission process through product portal, support channels, and in-app feedback mechanisms. Detailed descriptions, use cases, and expected benefits are required for each submission.",
-      "response_time": 1.7736458778381348
+      "answer": "The context doesn\u2019t provide information about how to request a mobile widget.",
+      "context": [
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.",
+        "and\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.\n \nDocumentation  Requirements  \nComplete  feature  requests  include  problem  statements,  proposed  solutions,  success  \nmetrics,\n \nand\n \nbusiness\n \njustification.\n \nTechnical\n \nrequirements\n \nshould\n \nspecify\n \nplatform\n \ncompatibility,\n \nperformance\n \nexpectations,\n \nand\n \nsecurity\n \nconsiderations.\n \nVisual  mockups,  workflow  diagrams,  and  user  journey  maps  enhance  request  evaluation  \nand\n \nincrease\n \nimplementation\n \nlikelihood."
+      ],
+      "response_time": 1.1324825286865234,
+      "context_utilization": 0.03571428571428571,
+      "cosine_similarity": 0.6669044246141801,
+      "token_usage": 12
     },
     {
       "id": 47,
@@ -426,8 +797,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "Yes, exporting data to CSV is supported. \n\nThe context states that support for the latest versions of Chrome, Firefox, Safari, and Edge browsers is active, and legacy browsers will receive upgrade notifications when accessing the platform.",
-      "response_time": 1.6877148151397705
+      "answer": "Yes, we support exporting data to CSV. \n\nThe context states that upgrading their service tier or implementing optimization strategies can lead to data recovery needs, and customers will be notified of the recovery process timeline. \n\n",
+      "context": [
+        "experiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould\n \ncontact\n \nour\n \ntechnical\n \nsupport\n \nteam\n \nto\n \ndiscuss\n \nupgrading\n \ntheir\n \nservice\n \ntier\n \nor\n \nimplementing\n \nrequest\n \noptimization\n \nstrategies.\n \nBrowser  Compatibility  Matrix  \nWe  maintain  active  support  for  the  latest  two  major  versions  of  Chrome,  Firefox,  Safari,  and  \nEdge\n \nbrowsers.\n \nInternet\n \nExplorer\n \nsupport\n \nwas\n \ndiscontinued\n \nas\n \nof\n \nJanuary\n \n2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill",
+        "capabilities.\n \nIn\n \nthe\n \nevent\n \nof\n \ndata\n \nrecovery\n \nneeds,\n \ncustomers\n \nare\n \nnotified\n \nof\n \nthe\n \nrecovery\n \nprocess\n \ntimeline\n \nand\n \nany\n \nactions\n \nrequired\n \nto\n \nrestore\n \ntheir\n \nservice\n \nfunctionality.\n \nSupport  Infrastructure  and  Languages  \nMulti-Language  Support  Capabilities  \nTechnical  support  is  available  in  English,  Spanish,  French,  German,  Japanese,  and  \nMandarin\n \nChinese\n \nwith\n \nnative\n \nspeakers\n \navailable\n \nduring\n \nrespective\n \nregional\n \nbusiness\n \nhours.",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.5088953971862793,
+      "context_utilization": 0.17796610169491525,
+      "cosine_similarity": 0.702606563256818,
+      "token_usage": 35
     },
     {
       "id": 48,
@@ -435,8 +814,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "Yes, push notification support is available. Mobile browsers on iOS Safari and Chrome for Android are supported for the current and previous major OS versions. The support team maintains detailed compatibility testing results and provides guidance for enterprise customers with unique browser requirements.",
-      "response_time": 1.971766710281372
+      "answer": "Yes, push notification support is available.\n",
+      "context": [
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support",
+        "of\n \navailable\n \nupdates\n \nthrough\n \nin-app\n \nnotifications\n \nand\n \nemail\n \nalerts.\n \nSecurity  patches  are  thoroughly  tested  across  supported  device  configurations  before  \nrelease.\n \nOur\n \nsecurity\n \nteam\n \nmaintains\n \na\n \npublic\n \nsecurity\n \nbulletin\n \naccessible\n \nthrough\n \nour\n \nsupport\n \nportal,\n \ndocumenting\n \nall\n \nsecurity\n \nupdates\n \nand\n \ntheir\n \nassociated\n \nfixes.\n \nAuthentication  and  Access  Control  \nLogin  Issue  Resolution",
+        "experiencing\n \nconsistent\n \nrate\n \nlimit\n \nissues\n \nshould\n \ncontact\n \nour\n \ntechnical\n \nsupport\n \nteam\n \nto\n \ndiscuss\n \nupgrading\n \ntheir\n \nservice\n \ntier\n \nor\n \nimplementing\n \nrequest\n \noptimization\n \nstrategies.\n \nBrowser  Compatibility  Matrix  \nWe  maintain  active  support  for  the  latest  two  major  versions  of  Chrome,  Firefox,  Safari,  and  \nEdge\n \nbrowsers.\n \nInternet\n \nExplorer\n \nsupport\n \nwas\n \ndiscontinued\n \nas\n \nof\n \nJanuary\n \n2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill"
+      ],
+      "response_time": 1.0658178329467773,
+      "context_utilization": 0.008771929824561403,
+      "cosine_similarity": 0.7414237131533445,
+      "token_usage": 6
     },
     {
       "id": 49,
@@ -444,8 +831,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context indicates that the app has an in-app feedback mechanism, which could be expanded into a search function.",
-      "response_time": 1.2461040019989014
+      "answer": "The context does not provide information about adding a search function to the app.",
+      "context": [
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.",
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "third-party\n \nintegrations,\n \nor\n \ncustom\n \ndevelopment\n \noptions.\n \nAlternative\n \nsolutions\n \ninclude\n \nimplementation\n \nguides\n \nand\n \nsupport\n \nresources.\n \nAlternative  solution  development  includes  community  collaboration  and  customer  success  \nteam\n \ninvolvement.\n \nAlte\n \n \nContact  Information  \n\u25cf  Feature  Requests :  features@company.com  \u25cf  Product  Feedback :  feedback@company.com  \u25cf  Beta  Program :  beta@company.com  \u25cf  Product  Portal :  portal.company.com  \nPolicy  Updates"
+      ],
+      "response_time": 1.100369930267334,
+      "context_utilization": 0.028037383177570093,
+      "cosine_similarity": 0.6395085378814966,
+      "token_usage": 14
     },
     {
       "id": 50,
@@ -453,8 +848,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "technical_support",
       "is_correct_intent": false,
-      "answer": "Yes, voice command support is available.\n\nThe chatbot can escalate complex issues to human agents.\n\n",
-      "response_time": 1.6667089462280273
+      "answer": "Yes, voice command support is available. \n\nThe chatbot can escalate complex issues to human agents with full context preservation and priority routing.\n\n",
+      "context": [
+        "troubleshooting\n \nguides\n \nand\n \nvideo\n \ntutorials.\n \nFor\n \nenterprise\n \ncustomers,\n \nwe\n \noffer\n \ndedicated\n \nintegration\n \nsupport\n \nspecialists\n \nwho\n \ncan\n \nprovide\n \nreal-time\n \nassistance\n \nduring\n \nimplementation\n \nphases.\n \nChatbot  and  Automated  Support  \nOur  AI-powered  chatbot  provides  24/7  initial  support  for  common  technical  issues  including  \npassword\n \nresets,\n \naccount\n \naccess,\n \nand\n \nbasic\n \ntroubleshooting.\n \nThe\n \nchatbot\n \ncan\n \nescalate\n \ncomplex\n \nissues\n \nto\n \nhuman",
+        "chatbot\n \ncan\n \nescalate\n \ncomplex\n \nissues\n \nto\n \nhuman\n \nagents\n \nwith\n \nfull\n \ncontext\n \npreservation\n \nand\n \npriority\n \nrouting.\n \nChatbot  interactions  are  continuously  monitored  for  accuracy  and  effectiveness  with  regular  \nupdates\n \nto\n \nexpand\n \nsupported\n \nissue\n \ntypes.\n \nCustomers\n \ncan\n \nopt\n \nout\n \nof\n \nchatbot\n \nsupport\n \nand\n \nrequest\n \ndirect\n \nhuman\n \nagent\n \nassistance\n \nat\n \nany\n \ntime\n \nduring\n \ntheir\n \nsupport\n \ninteraction.\n \nVersion  Control  and  Feature  Management",
+        "2024,\n \nand\n \ncustomers\n \nusing\n \nlegacy\n \nbrowsers\n \nwill\n \nreceive\n \nupgrade\n \nnotifications\n \nwhen\n \naccessing\n \nour\n \nplatform.\n \nMobile  browsers  on  iOS  Safari  and  Chrome  for  Android  are  supported  for  the  current  and  \nprevious\n \nmajor\n \nOS\n \nversions.\n \nOur\n \nsupport\n \nteam\n \nmaintains\n \ndetailed\n \ncompatibility\n \ntesting\n \nresults\n \nand\n \ncan\n \nprovide\n \nspecific\n \nguidance\n \nfor\n \nenterprise\n \ncustomers\n \nwith\n \nunique\n \nbrowser\n \nrequirements.\n \nMobile  Application  Support"
+      ],
+      "response_time": 1.3038663864135742,
+      "context_utilization": 0.1504424778761062,
+      "cosine_similarity": 0.837073257733303,
+      "token_usage": 22
     },
     {
       "id": 51,
@@ -462,8 +865,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context mentions timelines for feature release alerts and communication.",
-      "response_time": 1.0581705570220947
+      "answer": "Yes, you can add a feature to schedule reports. The context discusses feature release alerts and communication channels.",
+      "context": [
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "Feature  development  timelines  are  communicated  through  multiple  channels  including  \nproduct\n \nroadmaps,\n \ncustomer\n \nnewsletters,\n \nand\n \ndedicated\n \nfeature\n \nannouncement\n \nemails.\n \nTimeline\n \nestimates\n \ninclude\n \ndevelopment\n \nphases,\n \ntesting\n \nperiods,\n \nand\n \ndeployment\n \nschedules.\n \nTimeline  updates  are  provided  bi-weekly  for  features  in  active  development  with  detailed  \nprogress\n \nreports\n \nand\n \nmilestone\n \nachievements.\n \nCustomers\n \nreceive\n \nimmediate\n \nnotification\n \nof",
+        "Timeline  Communication  and  Updates  \nFeature  development  timelines  are  communicated  through  roadmap  publications,  customer  \nnewsletters,\n \nand\n \nproduct\n \nupdate\n \nannouncements.\n \nTimeline\n \nupdates\n \ninclude\n \nprogress\n \nreports,\n \nscope\n \nchanges,\n \nand\n \ndelivery\n \ndate\n \nadjustments.\n \nDelayed  features  receive  detailed  explanations  including  technical  challenges,  resource  \nconstraints,\n \nand\n \nrevised\n \ntimeline\n \nestimates.\n \nCustomers\n \nare\n \nnotified\n \nof\n \nsignificant"
+      ],
+      "response_time": 1.1855807304382324,
+      "context_utilization": 0.07865168539325842,
+      "cosine_similarity": 0.7952335352505847,
+      "token_usage": 18
     },
     {
       "id": 52,
@@ -471,8 +882,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context mentions feature requests and feedback channels.  You can submit feature requests and provide feedback through these channels.",
-      "response_time": 1.5042152404785156
+      "answer": "Yes, the context mentions collaboration tools and feature requests.  You can add a feature to share files with non-users through collaboration tools.",
+      "context": [
+        "Idea  collaboration  tools  include  commenting  systems,  document  versioning,  and  contributor  \nattribution.\n \nCollaborative\n \nideas\n \nreceive\n \nenhanced\n \nvisibility\n \nand\n \ndevelopment\n \nconsideration.\n \nIdea  Comments  and  Discussion  \nFeature  ideas  include  commenting  systems  for  detailed  discussion,  clarification,  and  \nenhancement\n \nsuggestions.\n \nDiscussion\n \nmoderation\n \nensures\n \nproductive\n \nconversations\n \nand\n \nactionable\n \nfeedback.",
+        "video\n \ntutorials,\n \nand\n \nsupport\n \nresources.\n \nTargeted  alerts  are  sent  to  customers  who  specifically  requested  released  features  with  \npersonalized\n \nmessaging\n \nand\n \nimplementation\n \nguidance.\n \nRelease\n \nalerts\n \ncan\n \nbe\n \ncustomized\n \nbased\n \non\n \ncustomer\n \npreferences\n \nand\n \nsubscription\n \nlevels.\n \nStakeholder  Communication  and  Involvement  \nCross-Functional  Collaboration  \nFeature  development  involves  collaboration  between  engineering,  product  management,  \ndesign,",
+        "third-party\n \nintegrations,\n \nor\n \ncustom\n \ndevelopment\n \noptions.\n \nAlternative\n \nsolutions\n \ninclude\n \nimplementation\n \nguides\n \nand\n \nsupport\n \nresources.\n \nAlternative  solution  development  includes  community  collaboration  and  customer  success  \nteam\n \ninvolvement.\n \nAlte\n \n \nContact  Information  \n\u25cf  Feature  Requests :  features@company.com  \u25cf  Product  Feedback :  feedback@company.com  \u25cf  Beta  Program :  beta@company.com  \u25cf  Product  Portal :  portal.company.com  \nPolicy  Updates"
+      ],
+      "response_time": 1.3006603717803955,
+      "context_utilization": 0.0673076923076923,
+      "cosine_similarity": 0.7697340022871149,
+      "token_usage": 22
     },
     {
       "id": 53,
@@ -480,8 +899,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, notifications can be customized by feature category and update frequency.",
-      "response_time": 1.2908143997192383
+      "answer": "Yes, you can add a feature to customize notifications by allowing customers to customize notification preferences by feature category and update frequency.",
+      "context": [
+        "Notification  and  Alert  Systems  \nDevelopment  Progress  Notifications  \nCustomers  receive  automated  notifications  for  features  they've  voted  on  or  submitted,  \nincluding\n \ndevelopment\n \nstart,\n \nmilestone\n \ncompletion,\n \nand\n \nrelease\n \nannouncements.\n \nNotification\n \npreferences\n \ncan\n \nbe\n \ncustomized\n \nby\n \nfeature\n \ncategory\n \nand\n \nupdate\n \nfrequency.\n \nProgress  notifications  include  detailed  development  updates,  testing  results,  and  expected  \nrelease\n \ntimelines.\n \nCustomers",
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "video\n \ntutorials,\n \nand\n \nsupport\n \nresources.\n \nTargeted  alerts  are  sent  to  customers  who  specifically  requested  released  features  with  \npersonalized\n \nmessaging\n \nand\n \nimplementation\n \nguidance.\n \nRelease\n \nalerts\n \ncan\n \nbe\n \ncustomized\n \nbased\n \non\n \ncustomer\n \npreferences\n \nand\n \nsubscription\n \nlevels.\n \nStakeholder  Communication  and  Involvement  \nCross-Functional  Collaboration  \nFeature  development  involves  collaboration  between  engineering,  product  management,  \ndesign,"
+      ],
+      "response_time": 1.2316348552703857,
+      "context_utilization": 0.13793103448275862,
+      "cosine_similarity": 0.7622227668586856,
+      "token_usage": 22
     },
     {
       "id": 54,
@@ -489,8 +916,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context describes a feature that automatically backs up data. Duplicate requests are merged with original submissions to consolidate voting and feedback. Customers can track their submitted requests with real-time status updates.",
-      "response_time": 1.4606142044067383
+      "answer": "Yes, the context mentions feature request duplication and merging, which could be automated with a backup feature. Duplicate requests are identified and merged to consolidate voting and feedback. Customers can track their submitted requests with real-time status updates.",
+      "context": [
+        "Duplicate  feature  requests  are  identified  through  automated  matching  and  manual  review  \nprocesses.\n \nDuplicate\n \nrequests\n \nare\n \nmerged\n \nwith\n \noriginal\n \nsubmissions\n \nto\n \nconsolidate\n \nvoting\n \nand\n \nfeedback.\n \nCustomers  submitting  duplicate  requests  are  notified  of  existing  submissions  with  options  to  \nadd\n \nadditional\n \ncontext\n \nor\n \nvote\n \nfor\n \nexisting\n \nrequests.\n \nDuplicate\n \nconsolidation\n \nensures\n \naccurate\n \ndemand\n \nmeasurement\n \nand\n \nprevents\n \nvote",
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "can\n \ntrack\n \ntheir\n \nsubmitted\n \nrequests\n \nwith\n \nreal-time\n \nstatus\n \nupdates\n \nand\n \nmilestone\n \nnotifications.\n \nDuplicate  Request  Management"
+      ],
+      "response_time": 1.5354111194610596,
+      "context_utilization": 0.29333333333333333,
+      "cosine_similarity": 0.9022277216217639,
+      "token_usage": 38
     },
     {
       "id": 55,
@@ -498,8 +933,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context suggests the ability to add a tagging feature. It does not provide details about how to implement it, but it does mention tagging as a potential enhancement.",
-      "response_time": 1.3414041996002197
+      "answer": "Yes, the context mentions feature tagging as a potential feature. It details how customers can track feature progress through dashboards and email summaries.",
+      "context": [
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "Idea  collaboration  tools  include  commenting  systems,  document  versioning,  and  contributor  \nattribution.\n \nCollaborative\n \nideas\n \nreceive\n \nenhanced\n \nvisibility\n \nand\n \ndevelopment\n \nconsideration.\n \nIdea  Comments  and  Discussion  \nFeature  ideas  include  commenting  systems  for  detailed  discussion,  clarification,  and  \nenhancement\n \nsuggestions.\n \nDiscussion\n \nmoderation\n \nensures\n \nproductive\n \nconversations\n \nand\n \nactionable\n \nfeedback."
+      ],
+      "response_time": 1.2527787685394287,
+      "context_utilization": 0.10101010101010101,
+      "cosine_similarity": 0.7769465583373014,
+      "token_usage": 23
     },
     {
       "id": 56,
@@ -507,8 +950,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, duplicate contact merging is possible. Duplicate feature requests are identified through automated matching and manual review. The context suggests that merging with original submissions ensures accurate demand measurement and prevents vote.",
-      "response_time": 1.401137351989746
+      "answer": "Yes, duplicate contact merging is supported. Duplicate request requests are merged with original submissions to consolidate voting and feedback. This ensures accurate demand measurement and prevents vote tracking. Regular stakeholder meetings ensure comprehensive feature development and customer-focused outcomes.",
+      "context": [
+        "Duplicate  feature  requests  are  identified  through  automated  matching  and  manual  review  \nprocesses.\n \nDuplicate\n \nrequests\n \nare\n \nmerged\n \nwith\n \noriginal\n \nsubmissions\n \nto\n \nconsolidate\n \nvoting\n \nand\n \nfeedback.\n \nCustomers  submitting  duplicate  requests  are  notified  of  existing  submissions  with  options  to  \nadd\n \nadditional\n \ncontext\n \nor\n \nvote\n \nfor\n \nexisting\n \nrequests.\n \nDuplicate\n \nconsolidation\n \nensures\n \naccurate\n \ndemand\n \nmeasurement\n \nand\n \nprevents\n \nvote",
+        "can\n \ntrack\n \ntheir\n \nsubmitted\n \nrequests\n \nwith\n \nreal-time\n \nstatus\n \nupdates\n \nand\n \nmilestone\n \nnotifications.\n \nDuplicate  Request  Management",
+        "design,\n \nand\n \ncustomer\n \nsuccess\n \nteams.\n \nCross-functional\n \ncommunication\n \nensures\n \ncomprehensive\n \nfeature\n \ndevelopment\n \nand\n \ncustomer-focused\n \noutcomes.\n \nRegular  stakeholder  meetings  include  progress  updates,  challenge  discussions,  and  \ndecision-making\n \nsessions.\n \nStakeholder\n \ninvolvement\n \nextends\n \nthroughout\n \nthe\n \ndevelopment\n \nlifecycle\n \nfrom\n \nconception\n \nto\n \nrelease.\n \nCustomer  Success  Integration"
+      ],
+      "response_time": 1.4903180599212646,
+      "context_utilization": 0.34177215189873417,
+      "cosine_similarity": 0.9084168636379439,
+      "token_usage": 38
     },
     {
       "id": 57,
@@ -516,8 +967,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context states that feature release alerts are sent to customers with detailed information about new functionality, setup instructions, and benefits.",
-      "response_time": 1.2667689323425293
+      "answer": "Yes, the context states that features can be added to set reminders.\n",
+      "context": [
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "for\n \ntechnical\n \nchallenges\n \nand\n \nresource\n \nconstraints.\n \nCommitment  updates  are  communicated  proactively  with  detailed  explanations  for  any  \nchanges.\n \nCustomers\n \nreceive\n \nregular\n \nprogress\n \nreports\n \nand\n \nrevised\n \ndelivery\n \nestimates\n \nwhen\n \nnecessary.\n \nPost-Release  Support  and  Iteration  \nReleased  features  receive  ongoing  support  including  bug  fixes,  performance  improvements,  \nand\n \nuser\n \nexperience\n \nenhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated",
+        "Notification  and  Alert  Systems  \nDevelopment  Progress  Notifications  \nCustomers  receive  automated  notifications  for  features  they've  voted  on  or  submitted,  \nincluding\n \ndevelopment\n \nstart,\n \nmilestone\n \ncompletion,\n \nand\n \nrelease\n \nannouncements.\n \nNotification\n \npreferences\n \ncan\n \nbe\n \ncustomized\n \nby\n \nfeature\n \ncategory\n \nand\n \nupdate\n \nfrequency.\n \nProgress  notifications  include  detailed  development  updates,  testing  results,  and  expected  \nrelease\n \ntimelines.\n \nCustomers"
+      ],
+      "response_time": 1.179016351699829,
+      "context_utilization": 0.042105263157894736,
+      "cosine_similarity": 0.7215222659042251,
+      "token_usage": 12
     },
     {
       "id": 58,
@@ -526,7 +985,15 @@
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
       "answer": "Yes, the context states that feature requests can be submitted through the product portal, customer support channels, and in-app feedback mechanisms. You can add a feature to lock the app with a PIN.",
-      "response_time": 1.6667571067810059
+      "context": [
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.",
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources."
+      ],
+      "response_time": 1.4506738185882568,
+      "context_utilization": 0.17307692307692307,
+      "cosine_similarity": 0.7889818065241844,
+      "token_usage": 33
     },
     {
       "id": 59,
@@ -534,8 +1001,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context states that feature release alerts include links to documentation, video tutorials, and support resources, allowing users to directly print documents from the app.",
-      "response_time": 2.0237205028533936
+      "answer": "Yes, the context states that feature release alerts include links to documentation, video tutorials, and support resources, and directly through in-app feedback mechanisms.",
+      "context": [
+        "release\n \ntimelines.\n \nCustomers\n \ncan\n \ntrack\n \nfeature\n \nprogress\n \nthrough\n \npersonalized\n \ndashboards\n \nand\n \nemail\n \nsummaries.\n \nFeature  Release  Alerts  \nFeature  release  alerts  are  sent  to  all  customers  with  detailed  information  about  new  \nfunctionality,\n \nsetup\n \ninstructions,\n \nand\n \nbenefits.\n \nRelease\n \nalerts\n \ninclude\n \nlinks\n \nto\n \ndocumentation,\n \nvideo\n \ntutorials,\n \nand\n \nsupport\n \nresources.",
+        "or\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.\n \nAll\n \nsubmissions\n \nrequire\n \ndetailed\n \ndescriptions\n \nincluding\n \nuse\n \ncase\n \nscenarios,\n \nexpected\n \nbenefits,\n \nand\n \ntarget\n \nuser\n \ngroups.\n \nSubmission  categories  include  new  features,  enhancements  to  existing  functionality,  \nintegration\n \nrequests,\n \nand\n \nuser\n \nexperience\n \nimprovements.\n \nEach\n \nsubmission\n \nreceives\n \na\n \nunique\n \ntracking\n \nnumber\n \nand\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.",
+        "and\n \nacknowledgment\n \nwithin\n \n24\n \nhours\n \nof\n \nreceipt.\n \nDocumentation  Requirements  \nComplete  feature  requests  include  problem  statements,  proposed  solutions,  success  \nmetrics,\n \nand\n \nbusiness\n \njustification.\n \nTechnical\n \nrequirements\n \nshould\n \nspecify\n \nplatform\n \ncompatibility,\n \nperformance\n \nexpectations,\n \nand\n \nsecurity\n \nconsiderations.\n \nVisual  mockups,  workflow  diagrams,  and  user  journey  maps  enhance  request  evaluation  \nand\n \nincrease\n \nimplementation\n \nlikelihood."
+      ],
+      "response_time": 1.3189284801483154,
+      "context_utilization": 0.1523809523809524,
+      "cosine_similarity": 0.8719301950028224,
+      "token_usage": 23
     },
     {
       "id": 60,
@@ -543,8 +1018,16 @@
       "true_intent": "feature_request",
       "predicted_intent": "feature_request",
       "is_correct_intent": true,
-      "answer": "Yes, the context suggests the ability to archive old projects through feature requests. Collaboration tools, comment systems, and versioning are already in place. Feature requests can be submitted through various channels.",
-      "response_time": 1.433837890625
+      "answer": "Yes, the context suggests the ability to add a feature to archive old projects. Collaboration tools, including commenting systems and versioning, enhance visibility and development consideration. Feature requests are evaluated and prioritized through a process involving engineering resources and customer feedback.",
+      "context": [
+        "Idea  collaboration  tools  include  commenting  systems,  document  versioning,  and  contributor  \nattribution.\n \nCollaborative\n \nideas\n \nreceive\n \nenhanced\n \nvisibility\n \nand\n \ndevelopment\n \nconsideration.\n \nIdea  Comments  and  Discussion  \nFeature  ideas  include  commenting  systems  for  detailed  discussion,  clarification,  and  \nenhancement\n \nsuggestions.\n \nDiscussion\n \nmoderation\n \nensures\n \nproductive\n \nconversations\n \nand\n \nactionable\n \nfeedback.",
+        "Feature  Requests  Policy  -  Submission  &  \nEvaluation\n \nDocument  Information  \n\u25cf  Policy  Type :  Product  Development  and  Feature  Management  \u25cf  Version :  2.4  \u25cf  Effective  Date :  January  2025  \u25cf  Review  Date :  July  2025  \u25cf  Owner :  Product  Management  Team  \n \nFeature  Request  Submission  Process  \nIdea  Submission  Guidelines  \nFeature  requests  can  be  submitted  through  our  product  portal,  customer  support  channels,  \nor\n \ndirectly\n \nthrough\n \nin-app\n \nfeedback\n \nmechanisms.",
+        "enhancements.\n \nPost-release\n \nsupport\n \nincludes\n \ndedicated\n \nengineering\n \nresources\n \nand\n \ncustomer\n \nsuccess\n \ninvolvement.\n \nFeature  iterations  are  planned  based  on  customer  feedback,  usage  analytics,  and  identified  \nimprovement\n \nopportunities.\n \nIterative\n \nimprovements\n \nare\n \ncommunicated\n \nthrough\n \nregular\n \nproduct\n \nupdates\n \nand\n \nenhancement\n \nannouncements.\n \n \n \nCommunity  Feedback  and  Engagement"
+      ],
+      "response_time": 1.5569334030151367,
+      "context_utilization": 0.17,
+      "cosine_similarity": 0.8477235991762071,
+      "token_usage": 41
     }
   ]
 }

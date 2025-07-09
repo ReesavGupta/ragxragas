@@ -151,22 +151,26 @@ See `data/test_set.json` for the full set. Example:
 ## A/B Testing
 
 - The API wrapper allows switching between local Llama (Ollama) and OpenAI/GROQ for A/B testing.
-- Set the `backend` parameter in API requests to select the LLM.
+- Set the `BACKEND` environment variable in API or evaluation requests to select the LLM.
+- **Note:** The dashboard only displays results for the default backend (the latest evaluation in `data/eval_results.json`).
+- If you want to view results for a different backend, copy or rename the corresponding results file (e.g., `eval_results_ollama.json` or `eval_results_groq.json`) to `eval_results.json` before launching the dashboard.
+- A/B comparison is not shown in the dashboard, but you can compare results manually by switching files.
 
 ---
 
-## Streaming Support
-
-- The FastAPI backend is designed to support streaming for long responses (see `main.py` for details).
-
----
 
 ## Web UI
+
 
 - The Streamlit dashboard (`src/dashboard.py`) provides:
   - A form to test the `/rag/query` endpoint live.
   - Visualizations of evaluation metrics.
   - Browsing and filtering of test results.
+  - **Note:** Only the results for the default backend (latest evaluation) are shown.
+
+![Result Example 1](./public/Screenshot-1.png)
+
+![Result Example 2](./public/Screenshot-2.png)
 
 ---
 
