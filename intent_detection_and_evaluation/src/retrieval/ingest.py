@@ -13,15 +13,15 @@ load_dotenv()
 INTENT_CONFIG = {
     "technical_support": {
         "pdf": "data/technical-support.pdf",
-        "index": os.getenv("PINECONE_TECH_SUPPORT_INDEX", "tech-support-index"),
+        "index": os.getenv("PINECONE_INDEX_TECHNICAL_SUPPORT"),
     },
     "billing_account": {
         "pdf": "data/billing-and-accounts.pdf",
-        "index": os.getenv("PINECONE_BILLING_INDEX", "billing-index"),
+        "index": os.getenv("PINECONE_INDEX_BILLING_ACCOUNT"),
     },
     "feature_request": {
         "pdf": "data/feature-requests.pdf",
-        "index": os.getenv("PINECONE_FEATURE_INDEX", "feature-index"),
+        "index": os.getenv("PINECONE_INDEX_FEATURE_REQUEST"),
     },
 }
 

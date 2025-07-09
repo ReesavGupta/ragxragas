@@ -6,6 +6,9 @@ from src.api.queue import enqueue_llm_request, get_llm_result
 from src.intent.classifier import HybridIntentClassifier
 from src.retrieval.retriever import IntentRAGFactory
 from langchain_ollama import OllamaLLM
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI()
 

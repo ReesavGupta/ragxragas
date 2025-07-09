@@ -1,0 +1,550 @@
+{
+  "summary": {
+    "intent_accuracy": 0.7833333333333333,
+    "avg_response_time": 1.7771286328633626,
+    "total_time": 106.62771797180176,
+    "total": 60
+  },
+  "results": [
+    {
+      "id": 1,
+      "query": "How do I reset my account password?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can reset your account password through our support ticket system. \n\nVerification, security questions, and SMS-based recovery codes are supported. \n\n",
+      "response_time": 5.639514207839966
+    },
+    {
+      "id": 2,
+      "query": "The app keeps crashing on startup. What should I do?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "The app is crashing, and it's likely due to a recent update. Rollback policies are in place to address this issue within 30 minutes of deployment.",
+      "response_time": 2.0610880851745605
+    },
+    {
+      "id": 3,
+      "query": "How can I update the software to the latest version?",
+      "true_intent": "technical_support",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": false,
+      "answer": "You can update the software to the latest version through proactive communication, regular progress reports, and feature development timelines, which includes dedicated engineering resources and customer involvement.",
+      "response_time": 2.9083869457244873
+    },
+    {
+      "id": 4,
+      "query": "Why am I seeing an error code 404 when logging in?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "The error code 404 indicates that the login is not recognized. The system includes automated account recovery options, but this may not be the issue.",
+      "response_time": 1.5451881885528564
+    },
+    {
+      "id": 5,
+      "query": "Is there a way to recover deleted files?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "No, you cannot recover deleted files. The context focuses on backup and recovery procedures.",
+      "response_time": 1.811086654663086
+    },
+    {
+      "id": 6,
+      "query": "My notifications are not working. How can I fix this?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can try restarting your device or app, or checking for updates in the app store. \n\n",
+      "response_time": 2.117097854614258
+    },
+    {
+      "id": 7,
+      "query": "How do I change my email address in the app?",
+      "true_intent": "technical_support",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": false,
+      "answer": "You can change your email address through the app\u2019s feedback mechanisms, submission categories, or direct in-app settings. \n\n",
+      "response_time": 1.397529125213623
+    },
+    {
+      "id": 8,
+      "query": "The website is loading very slowly. Any suggestions?",
+      "true_intent": "technical_support",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": false,
+      "answer": "The website may be slow. Community voting and feedback can help improve implementation likelihood.",
+      "response_time": 1.3795497417449951
+    },
+    {
+      "id": 9,
+      "query": "How do I enable two-factor authentication?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can enable two-factor authentication through authenticator apps, SMS codes, and hardware security keys across all supported platforms. Customers can request temporary access codes for 24 hours while troubleshooting their authentication setup.",
+      "response_time": 2.4133236408233643
+    },
+    {
+      "id": 10,
+      "query": "I forgot my username. How can I retrieve it?",
+      "true_intent": "technical_support",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": false,
+      "answer": "You can retrieve your username by contacting the billing team within the grace period to arrange payment extensions or alternative payment schedules.\n",
+      "response_time": 3.5555620193481445
+    },
+    {
+      "id": 11,
+      "query": "How do I uninstall the application?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can uninstall the application through the app store or by using the app\u2019s settings menu. \n\nHere\u2019s a breakdown of the process:\n \nCommon issues include app crashes, sync failures, and performance problems, which are typically resolved within 48 hours. Security patches are deployed within 72 hours of identification.\n",
+      "response_time": 2.278775215148926
+    },
+    {
+      "id": 12,
+      "query": "Why can't I upload files larger than 10MB?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "Standard. Uploading files larger than 10MB is restricted.",
+      "response_time": 1.5893025398254395
+    },
+    {
+      "id": 13,
+      "query": "How do I clear the app cache?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can clear the app cache through the settings menu within your mobile browser. \n\nThe context states that mobile browsers on iOS Safari and Chrome for Android are supported for the current and previous major OS versions.\n\n",
+      "response_time": 2.021131753921509
+    },
+    {
+      "id": 14,
+      "query": "The app is not syncing across my devices.",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "The app may be syncing issues, which can be resolved within 48 hours of initial report. \n\n",
+      "response_time": 1.3556914329528809
+    },
+    {
+      "id": 15,
+      "query": "How do I report a bug?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can report bugs through the mobile application support troubleshooting guidelines. Bugs affecting authentication, data loss, or payment processing receive immediate escalation.  Bug reporting is typically handled within 48 hours of submission.",
+      "response_time": 1.8653767108917236
+    },
+    {
+      "id": 16,
+      "query": "How do I turn off automatic updates?",
+      "true_intent": "technical_support",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": false,
+      "answer": "You can typically turn off automatic updates by going to your account settings and disabling the automatic update feature.",
+      "response_time": 1.2561917304992676
+    },
+    {
+      "id": 17,
+      "query": "Why am I not receiving verification emails?",
+      "true_intent": "technical_support",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": false,
+      "answer": "You can confirm verification emails through your account management dashboard. Suspicious payment activity may temporarily suspend processing. Legitimate discount issues require customer support with manual application.",
+      "response_time": 1.8078079223632812
+    },
+    {
+      "id": 18,
+      "query": "How do I reset the app to default settings?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can reset the app to default settings by rolling back changes within 30 minutes of deployment. \n\n",
+      "response_time": 1.258263349533081
+    },
+    {
+      "id": 19,
+      "query": "How do I check the app version?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can check the app version by going to the app settings menu. Version Control and Feature Management allows for semantic versioning with clear documentation of changes, new features, and compatibility requirements. Customers receive advance notice of major version releases with migration guides and compatibility testing resources. Legacy version support is maintained for 12 months after major releases.",
+      "response_time": 1.9852521419525146
+    },
+    {
+      "id": 20,
+      "query": "How do I contact technical support directly?",
+      "true_intent": "technical_support",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": true,
+      "answer": "You can contact technical support directly by sending an email to support@company.com or calling the 1-800-TECH-911 emergency hotline.",
+      "response_time": 1.4959490299224854
+    },
+    {
+      "id": 21,
+      "query": "How do I update my billing information?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can update your billing information through email, SMS, push notifications, and webhook integrations. Notifications are sent at multiple intervals, including 7 days before renewal, payment confirmation, and overdue payment reminders. Contact information updates require verification via SMS or voice calls.",
+      "response_time": 1.857151746749878
+    },
+    {
+      "id": 22,
+      "query": "Where can I download my invoices?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Invoice download options are available through the customer portal and API endpoints for multiple billing periods. You can download invoices in PDF, CSV, and XML formats.",
+      "response_time": 1.5844447612762451
+    },
+    {
+      "id": 23,
+      "query": "How do I change my subscription plan?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can change your subscription plan through your account settings, which are enabled by default. Disabling this feature requires 30-day notice for annual plans, and cancellation requires immediate processing for monthly subscriptions.",
+      "response_time": 1.6882390975952148
+    },
+    {
+      "id": 24,
+      "query": "Why was my payment declined?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Failed payments are declined due to insufficient funds, expired cards, or bank restrictions. Payment failures trigger retry attempts after 72 hours with customer notifications.",
+      "response_time": 1.3005375862121582
+    },
+    {
+      "id": 25,
+      "query": "How do I cancel my subscription?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can cancel your subscription through 30-day notice for annual plans and can be processed immediately for monthly subscriptions. Cancellation confirmations are sent via email, and charges, and cancellations within 14 days of initial subscription are prorated based on unused service time.",
+      "response_time": 1.7447350025177002
+    },
+    {
+      "id": 26,
+      "query": "Can I get a refund for my last payment?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Yes, you can request a refund for your last payment. Refund eligibility depends on your subscription type and the length of the cancellation period, as outlined in the document.",
+      "response_time": 1.9935030937194824
+    },
+    {
+      "id": 27,
+      "query": "How do I add a new payment method?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Customers can review stored payment methods and update security settings through their account management dashboard. Verification includes address verification, CVV checks, and fraud detection algorithms. Suspicious payment activity may temporarily suspend processing for security purposes.",
+      "response_time": 1.7555336952209473
+    },
+    {
+      "id": 28,
+      "query": "How do I view my account balance?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can view your account balance through customer portal, API endpoints, and customer service channels. Detailed balance breakdowns, including pending charges, credits, and upcoming renewals, are available.",
+      "response_time": 1.6054136753082275
+    },
+    {
+      "id": 29,
+      "query": "How do I reactivate a cancelled account?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "To reactivate a canceled account, contact customer support through self-service options or by contacting them. Deactivated accounts retain data for 90 days, but permanent deletion occurs after 90 days. You need to pay outstanding balances and late fees to reactivate.",
+      "response_time": 1.7953977584838867
+    },
+    {
+      "id": 30,
+      "query": "Why am I being charged twice?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Late fees and account suspension can result from payment method updates and manual payment options.\n\n",
+      "response_time": 1.625255823135376
+    },
+    {
+      "id": 31,
+      "query": "How do I get a copy of my billing statement?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can get a copy of your billing statement by email, SMS, push notifications, or webhook integrations. Notifications are sent at multiple intervals, including 7 days before renewal, payment confirmation, and overdue payment reminders. \n\n",
+      "response_time": 1.7616512775421143
+    },
+    {
+      "id": 32,
+      "query": "How do I update my tax information?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can update your tax information through 24-hour processing with confirmation notifications. Corporate customers can maintain multiple billing addresses with centralized account management. Billing cycle changes require 30-day advance notice, and proration calculations ensure customers receive appropriate credits.",
+      "response_time": 2.2980222702026367
+    },
+    {
+      "id": 33,
+      "query": "How do I set up automatic payments?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can set up automatic payments through email notifications and customization options. \n\nHere\u2019s how: Email receipts are automatically generated, include detailed transaction information, and allow for adjustments to frequency and delivery methods.",
+      "response_time": 1.7288508415222168
+    },
+    {
+      "id": 34,
+      "query": "How do I change my account email address?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can change your account email address through customer support with manual application, verification through customer account authentication, and may trigger additional security checks for fraud prevention. Address changes affect tax calculations and compliance requirements for old and new addresses.",
+      "response_time": 1.7688002586364746
+    },
+    {
+      "id": 35,
+      "query": "How do I check my payment history?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can check your payment history through customer support, which provides historical invoice retrieval and payment status. Payment processing and confirmation procedures are sent immediately upon successful transaction processing with unique confirmation numbers. Customers can review stored payment methods and update security settings through their account management dashboard.",
+      "response_time": 1.8766984939575195
+    },
+    {
+      "id": 36,
+      "query": "How do I apply a promo code?",
+      "true_intent": "billing_account",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "You can apply a promo code through the developer dashboard, where rate limits are reset at the top of each hour. Customers can monitor usage through the developer dashboard and request temporary access codes for 24 hours if they experience rate limits.",
+      "response_time": 1.9642984867095947
+    },
+    {
+      "id": 37,
+      "query": "How do I remove a saved payment method?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Yes, you can remove a saved payment method through the account management dashboard. Contact the billing team within the grace period to arrange payment extensions or alternative payment schedules.",
+      "response_time": 1.8454174995422363
+    },
+    {
+      "id": 38,
+      "query": "How do I get a receipt for my payment?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "Receipts are automatically generated and sent within 15 minutes of payment processing. They include detailed transaction information, tax calculations, and customer account details needed for expense reporting. Historical invoice retrieval is available through customer support for periods beyond online portal access. Receipts are archived for 7 years with online access through the customer portal.",
+      "response_time": 1.7825214862823486
+    },
+    {
+      "id": 39,
+      "query": "How do I update my billing address?",
+      "true_intent": "billing_account",
+      "predicted_intent": "billing_account",
+      "is_correct_intent": true,
+      "answer": "You can update your billing address through email, SMS, or voice calls. Confirmation notifications are sent to both old and new addresses. Updates are processed within 24 hours with notifications.",
+      "response_time": 1.4320850372314453
+    },
+    {
+      "id": 40,
+      "query": "How do I contact billing support?",
+      "true_intent": "billing_account",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "You can contact billing support at support@company.com. They provide technical support, emergency hotline 1-800-TECH-911, and status page at status.company.com. You can also request SMS-based recovery codes for complex issues.",
+      "response_time": 1.6637799739837646
+    },
+    {
+      "id": 41,
+      "query": "Can you add dark mode to the app?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the app can be added in dark mode through support resources and community collaboration.\n\n",
+      "response_time": 1.1826436519622803
+    },
+    {
+      "id": 42,
+      "query": "I would like to see integration with Google Drive.",
+      "true_intent": "feature_request",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "Integration and Compatibility.\nService Integration Support.\nThe context states that integration support includes API documentation, sample code, and dedicated technical consultation.\n",
+      "response_time": 1.4269967079162598
+    },
+    {
+      "id": 43,
+      "query": "Can you add multi-language support?",
+      "true_intent": "feature_request",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "Yes, our support is available in English, Spanish, French, German, Japanese, and Mandarin.\n\n",
+      "response_time": 1.2239267826080322
+    },
+    {
+      "id": 44,
+      "query": "Is it possible to have a desktop version?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, it is possible to have a desktop version. The context states that \u201cReleased features receive ongoing support including bug fixes, performance improvements, and user experience enhancements.\u201d",
+      "response_time": 1.4371535778045654
+    },
+    {
+      "id": 45,
+      "query": "Can you add a calendar sync feature?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context mentions the ability to track feature progress through dashboards and email summaries. However, it does not explicitly state whether a calendar sync feature is available. The context primarily focuses on feature release alerts and timeline updates.",
+      "response_time": 1.7492103576660156
+    },
+    {
+      "id": 46,
+      "query": "I want to request a mobile widget.",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "The context describes the policy for submitting mobile widgets. It outlines the submission process through product portal, support channels, and in-app feedback mechanisms. Detailed descriptions, use cases, and expected benefits are required for each submission.",
+      "response_time": 1.7736458778381348
+    },
+    {
+      "id": 47,
+      "query": "Can you add support for exporting data to CSV?",
+      "true_intent": "feature_request",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "Yes, exporting data to CSV is supported. \n\nThe context states that support for the latest versions of Chrome, Firefox, Safari, and Edge browsers is active, and legacy browsers will receive upgrade notifications when accessing the platform.",
+      "response_time": 1.6877148151397705
+    },
+    {
+      "id": 48,
+      "query": "Can you add push notification support?",
+      "true_intent": "feature_request",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "Yes, push notification support is available. Mobile browsers on iOS Safari and Chrome for Android are supported for the current and previous major OS versions. The support team maintains detailed compatibility testing results and provides guidance for enterprise customers with unique browser requirements.",
+      "response_time": 1.971766710281372
+    },
+    {
+      "id": 49,
+      "query": "Can you add a search function to the app?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context indicates that the app has an in-app feedback mechanism, which could be expanded into a search function.",
+      "response_time": 1.2461040019989014
+    },
+    {
+      "id": 50,
+      "query": "Can you add voice command support?",
+      "true_intent": "feature_request",
+      "predicted_intent": "technical_support",
+      "is_correct_intent": false,
+      "answer": "Yes, voice command support is available.\n\nThe chatbot can escalate complex issues to human agents.\n\n",
+      "response_time": 1.6667089462280273
+    },
+    {
+      "id": 51,
+      "query": "Can you add a feature to schedule reports?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context mentions timelines for feature release alerts and communication.",
+      "response_time": 1.0581705570220947
+    },
+    {
+      "id": 52,
+      "query": "Can you add a feature to share files with non-users?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context mentions feature requests and feedback channels.  You can submit feature requests and provide feedback through these channels.",
+      "response_time": 1.5042152404785156
+    },
+    {
+      "id": 53,
+      "query": "Can you add a feature to customize notifications?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, notifications can be customized by feature category and update frequency.",
+      "response_time": 1.2908143997192383
+    },
+    {
+      "id": 54,
+      "query": "Can you add a feature to backup data automatically?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context describes a feature that automatically backs up data. Duplicate requests are merged with original submissions to consolidate voting and feedback. Customers can track their submitted requests with real-time status updates.",
+      "response_time": 1.4606142044067383
+    },
+    {
+      "id": 55,
+      "query": "Can you add a feature to tag documents?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context suggests the ability to add a tagging feature. It does not provide details about how to implement it, but it does mention tagging as a potential enhancement.",
+      "response_time": 1.3414041996002197
+    },
+    {
+      "id": 56,
+      "query": "Can you add a feature to merge duplicate contacts?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, duplicate contact merging is possible. Duplicate feature requests are identified through automated matching and manual review. The context suggests that merging with original submissions ensures accurate demand measurement and prevents vote.",
+      "response_time": 1.401137351989746
+    },
+    {
+      "id": 57,
+      "query": "Can you add a feature to set reminders?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context states that feature release alerts are sent to customers with detailed information about new functionality, setup instructions, and benefits.",
+      "response_time": 1.2667689323425293
+    },
+    {
+      "id": 58,
+      "query": "Can you add a feature to lock the app with a PIN?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context states that feature requests can be submitted through the product portal, customer support channels, and in-app feedback mechanisms. You can add a feature to lock the app with a PIN.",
+      "response_time": 1.6667571067810059
+    },
+    {
+      "id": 59,
+      "query": "Can you add a feature to print documents directly from the app?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context states that feature release alerts include links to documentation, video tutorials, and support resources, allowing users to directly print documents from the app.",
+      "response_time": 2.0237205028533936
+    },
+    {
+      "id": 60,
+      "query": "Can you add a feature to archive old projects?",
+      "true_intent": "feature_request",
+      "predicted_intent": "feature_request",
+      "is_correct_intent": true,
+      "answer": "Yes, the context suggests the ability to archive old projects through feature requests. Collaboration tools, comment systems, and versioning are already in place. Feature requests can be submitted through various channels.",
+      "response_time": 1.433837890625
+    }
+  ]
+}

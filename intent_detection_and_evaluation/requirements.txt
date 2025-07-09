@@ -1,8 +1,10 @@
+pypdf
 langchain
 langchain-ollama
 langchain-groq
 langchain-nomic
 fastapi
 uvicorn
+streamlit
 redis>=5.0.0
 rq>=1.15.1

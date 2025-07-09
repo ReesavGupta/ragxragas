@@ -6,14 +6,14 @@ import numpy as np
 import json
 import ast
 
-from src.load_and_chunk.load_and_chunk import load_documents, chunk_text
-from src.vector_store.embeddings_and_vectorstore import create_embeddings, initialize_vec_store_and_embedding_model
-from src.retriever.retriever import build_rag_graph, State
+from medical_ai_assistant.src.load_and_chunk.load_and_chunk import load_documents, chunk_text
+from medical_ai_assistant.src.vector_store.embeddings_and_vectorstore import create_embeddings, initialize_vec_store_and_embedding_model
+from medical_ai_assistant.src.retriever.retriever import build_rag_graph, State
 from ragas.llms import LangchainLLMWrapper
 from ragas.metrics import Faithfulness, FactualCorrectness, ContextPrecision, AnswerRelevancy
 from ragas import EvaluationDataset, RunConfig, evaluate
 from langchain import hub
-from src.retriever.retriever import init_groq
+from medical_ai_assistant.src.retriever.retriever import init_groq
 from langchain_core.documents import Document
 import os
 from dotenv import load_dotenv; load_dotenv()
