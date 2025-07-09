@@ -62,9 +62,9 @@ This ensures that the system is both accurate and safe, even without ground trut
 
 **Query → Retrieval → Generation → RAGAS Evaluation:**
 
-![Result Example 1](PLACEHOLDER_IMAGE_1.png)
+![Result Example 1](./public/Screenshot-1.png)
 
-![Result Example 2](PLACEHOLDER_IMAGE_2.png)
+![Result Example 2](./public/Screenshot-2.png)
 
 ---
 
