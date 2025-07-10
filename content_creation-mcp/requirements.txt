@@ -1,0 +1,9 @@
+fastapi
+pydantic 
+uvicorn
+streamlit
+pyyaml
+langchain
+langchain-openai
+python-dotenv
+fastmcp
