@@ -6,11 +6,11 @@ A scalable, production-ready Retrieval-Augmented Generation (RAG) system for que
 
 ## Screenshots & Results
 
-| UI Before Query | UI After Query | k6 CLI Results |
-|:--------------:|:-------------:|:--------------:|
-| ![UI before query](public/ui_before_query.png) | ![UI after query](public/ui_after_query.png) | ![k6 CLI results](public/k6_cli_results.png) |
+| UI Before Query | UI After Query 1 | UI After Query 2 | k6 CLI Results |
+|:--------------:|:----------------:|:----------------:|:--------------:|
+| ![UI before query](public/ui-1.png) | ![UI after query 1](public/ui-2.png) | ![UI after query 2](public/ui-3.png) | ![k6 CLI results](public/k6.png) |
 
-*Left: Streamlit UI before submitting a query. Center: UI after receiving an answer. Right: k6 load test CLI output.*
+*Left: Streamlit UI before submitting a query. Center left/right: UI after receiving answers (different queries/results). Right: k6 load test CLI output.*
 
 ---
 
