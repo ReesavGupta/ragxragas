@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from fastapi import FastAPI, HTTPException, Request, Response
 from pydantic import BaseModel
-from rag_pipeline import RAGPipeline
-from cache import AsyncRedisCache
-from query_type_detection import detect_query_type_llm
+from src.rag_pipeline import RAGPipeline
+from src.cache import AsyncRedisCache
+from src.query_type_detection import detect_query_type_llm
 from langchain_pinecone import PineconeVectorStore
 from langchain_nomic import NomicEmbeddings
 from pinecone import Pinecone
@@ -12,6 +15,12 @@ import time
 from typing import Dict
 import hashlib
 from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
+
+# Import groq RateLimitError for error handling
+try:
+    from groq import RateLimitError
+except ImportError:
+    RateLimitError = Exception  # fallback if groq not installed
 
 app = FastAPI()
 
@@ -95,6 +104,9 @@ async def query_endpoint(request: QueryRequest):
         result = await rag_pipeline.run(request.query)
         await cache.set(cache_key, result, ttl)
         return {"answer": result["answer"], "context": result["context"], "cached": False, "query_type": query_type}
+    except RateLimitError as e:
+        ERROR_COUNT.inc()
+        raise HTTPException(status_code=429, detail="LLM rate limit reached. Please try again later.")
     except Exception as e:
         ERROR_COUNT.inc()
         raise HTTPException(status_code=500, detail=str(e))

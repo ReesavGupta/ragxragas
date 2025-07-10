@@ -4,9 +4,8 @@ from redis import Redis
 from rq import Queue, Worker
 from dotenv import load_dotenv
 
-# Ensure src is in path for import
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from ingest import ingest_pdfs
+# Use absolute import for WSL/Linux compatibility
+from src.ingest import ingest_pdfs
 
 load_dotenv()
 
@@ -16,7 +15,8 @@ redis_conn = Redis.from_url(REDIS_URL)
 queue = Queue("ingest", connection=redis_conn)
 
 def enqueue_ingestion():
-    job = queue.enqueue(ingest_pdfs)
+    # Disable job timeout for Windows compatibility
+    job = queue.enqueue(ingest_pdfs, job_timeout=-1)
     print(f"Enqueued ingestion job: {job.id}")
     print("To start a worker, run: rq worker ingest")
 

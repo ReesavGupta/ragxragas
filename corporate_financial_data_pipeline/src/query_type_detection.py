@@ -3,7 +3,9 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import SecretStr
 from anyio.to_thread import run_sync
+from dotenv import load_dotenv
 
+load_dotenv()
 FEWSHOT_PROMPT = """
 Classify the following financial query as either 'real_time' or 'historical'.
 

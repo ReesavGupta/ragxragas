@@ -12,3 +12,5 @@ langchain-groq
 anyio
 aioredis
 prometheus_client 
+uvicorn
+pypdf

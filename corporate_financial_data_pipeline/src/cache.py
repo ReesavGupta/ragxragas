@@ -1,5 +1,5 @@
 import os
-import aioredis
+import redis.asyncio as aioredis
 import json
 from typing import Optional
 
@@ -11,7 +11,7 @@ class AsyncRedisCache:
 
     async def get_pool(self):
         if self._pool is None:
-            self._pool = await aioredis.from_url(self.redis_url, decode_responses=True)
+            self._pool = aioredis.from_url(self.redis_url, decode_responses=True)
         return self._pool
 
     def _make_key(self, key: str) -> str:
