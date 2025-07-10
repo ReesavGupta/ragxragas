@@ -1,0 +1,14 @@
+langchain
+defaults
+langchain-community
+langchain-nomic
+langchain-pinecone
+redis
+rq
+fastapi
+streamlit
+pinecone-client
+langchain-groq
+anyio
+aioredis
+prometheus_client 
