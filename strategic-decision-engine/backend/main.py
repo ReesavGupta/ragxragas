@@ -6,17 +6,23 @@ from fastapi.responses import JSONResponse
 from tempfile import NamedTemporaryFile
 from core.processing import load_and_chunk_document
 from core.embeddings import embed_chunks
-from core.vector_store import upsert_embeddings, query_pinecone
+from core.vector_store import upsert_embeddings, query_pinecone, get_bm25_retriever, hybrid_retrieve, rerank_results, compress_context
 from backend.models import Document, Chunk
 from backend.db import AsyncSessionLocal, get_db
 from sqlalchemy.future import select
 import uuid
 import datetime
+import redis
 
 app = FastAPI()
 
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
+REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
+REDIS_DB = int(os.getenv("REDIS_DB", 0))
+redis_client = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=REDIS_DB)
 
 def compute_file_hash(file_path: str) -> str:
     hasher = hashlib.sha256()
@@ -93,6 +99,11 @@ async def upload_document(file: UploadFile = File(...)):
             raise HTTPException(status_code=500, detail=f"Failed to upsert embeddings: {e}")
     os.remove(temp_path)
 
+    # Store chunks in Redis for BM25
+    for chunk_id, chunk in zip(chunk_ids, chunks):
+        redis_client.set(f"chunk:{chunk_id}:text", chunk)
+        redis_client.sadd("all_chunk_ids", chunk_id)
+
     return JSONResponse({
         "message": "Document uploaded and processed successfully.",
         "document_id": doc_id,
@@ -127,4 +138,42 @@ async def search_documents(query: str = Query(...), top_k: int = Query(5)):
                 'score': match['score'],
                 'metadata': match.get('metadata', {})
             })
-    return {"results": results} 
+    return {"results": results}
+
+@app.post("/search_sparse")
+async def search_sparse(query: str = Query(...), top_k: int = Query(5)):
+    # Build BM25Retriever from Redis
+    bm25_retriever = get_bm25_retriever(redis_client)
+    # Retrieve top-k chunk texts
+    results = bm25_retriever.get_relevant_documents(query)[:top_k]
+    # Map chunk texts back to chunk IDs
+    chunk_ids = redis_client.smembers("all_chunk_ids")  # type: ignore
+    chunk_ids = [cid.decode() if isinstance(cid, bytes) else cid for cid in chunk_ids]  # type: ignore
+    id_to_text = {redis_client.get(f"chunk:{cid}:text").decode(): cid for cid in chunk_ids}  # type: ignore
+    response = []
+    for doc in results:
+        chunk_text = doc.page_content
+        chunk_id = id_to_text.get(chunk_text)
+        response.append({
+            "chunk_id": chunk_id,
+            "content": chunk_text,
+            "score": doc.metadata.get('score', None)
+        })
+    return {"results": response}
+
+@app.post("/search_hybrid")
+async def search_hybrid(query: str = Query(...), top_k: int = Query(5)):
+    results = hybrid_retrieve(query, top_k, redis_client)
+    return {"results": results}
+
+@app.post("/search_rerank")
+async def search_rerank(query: str = Query(...), top_k: int = Query(5)):
+    hybrid_results = hybrid_retrieve(query, top_k, redis_client)
+    reranked = rerank_results(query, hybrid_results, top_k=top_k)
+    return {"results": reranked}
+
+@app.post("/search_compress")
+async def search_compress(query: str = Query(...), top_k: int = Query(5)):
+    hybrid_results = hybrid_retrieve(query, top_k, redis_client)
+    compressed = compress_context(query, hybrid_results, top_n=top_k)
+    return {"results": compressed} 

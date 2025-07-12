@@ -14,11 +14,11 @@
 - [x] Store metadata in PostgreSQL
 
 ## Retrieval & RAG Pipeline
-- [ ] Implement dense retrieval (Pinecone, langchain-pinecone)
-- [ ] Implement sparse retrieval (BM25/Redis)
-- [ ] Hybrid retrieval orchestration
-- [ ] Advanced reranking (multi-model ensemble)
-- [ ] Contextual compression/filtering
+- [x] Implement dense retrieval (Pinecone, langchain-pinecone)
+- [x] Implement sparse retrieval (BM25/Redis)
+- [x] Hybrid retrieval orchestration
+- [x] Advanced reranking (multi-model ensemble)
+- [x] Contextual compression/filtering
 
 ## Query Decomposition & Tool Calling
 - [ ] Query decomposition module
