@@ -6,13 +6,13 @@ This document outlines the architecture, technology stack, and step-by-step code
 
 # Implementation Task List
 
-- [ ] Set up Redis client and test connection
-- [ ] Initialize Pinecone and Nomic embeddings
-- [ ] Implement BM25 sparse retriever setup
-- [ ] Create FastAPI endpoint for document upload and chunking
-    - [ ] (depends on: Redis, Pinecone/Nomic, BM25)
-- [ ] Implement hybrid retrieval (Pinecone + BM25) pipeline
-    - [ ] (depends on: Pinecone/Nomic, BM25)
+- [x] Set up Redis client and test connection
+- [x] Initialize Pinecone and Nomic embeddings
+- [x] Implement BM25 sparse retriever setup
+- [x] Create FastAPI endpoint for document upload and chunking
+    - [x] (depends on: Redis, Pinecone/Nomic, BM25)
+- [x] Implement hybrid retrieval (Pinecone + BM25) pipeline
+    - [x] (depends on: Pinecone/Nomic, BM25)
 - [ ] Add advanced reranking and contextual compression retriever
     - [ ] (depends on: Hybrid retrieval)
 - [ ] Integrate Redis caching for chunks and assessments

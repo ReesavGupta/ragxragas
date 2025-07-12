@@ -1,4 +1,10 @@
+fastapi
+uvicorn
+pypdf
 redis
 pinecone
 langchain-nomic
+langchain-community
+langchain_groq
 python-dotenv
+rank_bm25
