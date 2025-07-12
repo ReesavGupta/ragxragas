@@ -1,0 +1,9 @@
+_sysconfig.py
+base.py
+locations/
+_internal/
+pip/
+Lib/
+.env
+.venv/
+*.env

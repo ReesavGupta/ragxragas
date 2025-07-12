@@ -1,0 +1,42 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+pydantic
+
+# LangChain and AI
+langchain
+langchain-groq
+langchain-pinecone
+langchain-community
+langchain-text-splitters
+langchain-core
+
+# Vector Database
+pinecone-client>=3.0.0,<4.0.0
+
+# Embeddings
+nomic
+
+# Data Processing
+pandas
+numpy
+
+# Environment and Configuration
+python-dotenv
+
+# HTTP Client
+httpx
+requests
+
+# Utilities
+python-multipart
+aiofiles
+
+# Development and Testing
+pytest
+pytest-asyncio
+black
+flake8
+
+# Monitoring and Logging
+structlog 
