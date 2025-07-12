@@ -1,0 +1,14 @@
+fastapi
+streamlit
+langchain
+langchain-nomic
+langchain-community
+langchain-pinecone
+langchain_groq
+ragas
+pinecone-client
+redis
+uvicorn
+python-dotenv
+psycopg2-binary
+pymongo 
