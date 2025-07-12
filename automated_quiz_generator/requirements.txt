@@ -1,0 +1,4 @@
+redis
+pinecone
+langchain-nomic
+python-dotenv
