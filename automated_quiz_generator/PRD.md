@@ -13,13 +13,13 @@ This document outlines the architecture, technology stack, and step-by-step code
     - [x] (depends on: Redis, Pinecone/Nomic, BM25)
 - [x] Implement hybrid retrieval (Pinecone + BM25) pipeline
     - [x] (depends on: Pinecone/Nomic, BM25)
-- [ ] Add advanced reranking and contextual compression retriever
-    - [ ] (depends on: Hybrid retrieval)
-- [ ] Integrate Redis caching for chunks and assessments
-    - [ ] (depends on: Redis)
-- [ ] Implement Groq API call for assessment generation
-- [ ] Create FastAPI endpoint for quiz generation
-    - [ ] (depends on: Reranking/compression, Groq API, Redis caching)
+- [x] Add advanced reranking and contextual compression retriever
+    - [x] (depends on: Hybrid retrieval)
+- [x] Integrate Redis caching for chunks and assessments
+    - [x] (depends on: Redis)
+- [x] Implement Groq API call for assessment generation
+- [x] Create FastAPI endpoint for quiz generation
+    - [x] (depends on: Reranking/compression, Groq API, Redis caching)
 - [ ] Track user performance and adjust difficulty dynamically
     - [ ] (depends on: Quiz endpoint)
 - [ ] Integrate tool calling for external educational APIs (optional)

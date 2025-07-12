@@ -3,11 +3,12 @@ from langchain_community.retrievers import BM25Retriever
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 from langchain.retrievers.document_compressors import CrossEncoderReranker
 from langchain.retrievers import ContextualCompressionRetriever
-from langchain_community.vectorstores import PineconeRetriever
 from langchain.retrievers import EnsembleRetriever
 from langchain_nomic import NomicEmbeddings
 from pinecone import Pinecone
 import dotenv
+
+from langchain_pinecone import  PineconeVectorStore
 
 dotenv.load_dotenv()
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
@@ -17,8 +18,8 @@ INDEX_HOST = os.getenv("PINECONE_INDEX_HOST")
 
 # Initialize Pinecone and Nomic
 pc = Pinecone(api_key=PINECONE_API_KEY)
-if INDEX_HOST:
-    index = pc.Index(INDEX_NAME, host=INDEX_HOST)
+if INDEX_HOST and pc.has_index(INDEX_NAME):
+    index = pc.Index(name=INDEX_NAME, host=INDEX_HOST)
 else:
     index = None
 embeddings = NomicEmbeddings(nomic_api_key=NOMIC_API_KEY, model="nomic-embed-text-v1.5")
@@ -34,6 +35,11 @@ reranker = CrossEncoderReranker(model=cross_encoder, top_n=5)
 hybrid_retriever = None
 compression_retriever = None
 
+# Pinecone vector store retriever
+pinecone_vectorstore = None
+if index:
+    pinecone_vectorstore = PineconeVectorStore(index=index, embedding=embeddings, text_key="text")
+
 def update_bm25(chunks):
     global documents, bm25_retriever
     documents.extend(chunks)
@@ -42,11 +48,10 @@ def update_bm25(chunks):
         update_hybrid()
 
 def update_hybrid():
-    global hybrid_retriever, compression_retriever
+    global hybrid_retriever, compression_retriever, pinecone_vectorstore
     retrievers = []
-    if index:
-        pinecone_retriever = PineconeRetriever(index=index, embedding=embeddings)
-        retrievers.append(pinecone_retriever)
+    if pinecone_vectorstore:
+        retrievers.append(pinecone_vectorstore.as_retriever())
     if bm25_retriever:
         retrievers.append(bm25_retriever)
     if retrievers:

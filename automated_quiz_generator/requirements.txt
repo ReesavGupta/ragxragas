@@ -1,10 +1,13 @@
 fastapi
 uvicorn
+streamlit
 pypdf
 redis
 pinecone
 langchain-nomic
 langchain-community
+langchain-pinecone
 langchain_groq
 python-dotenv
 rank_bm25
+sentence-transformers

@@ -176,3 +176,36 @@ def generate_quiz(query: str = Query(...), difficulty: str = "medium"):
 - This endpoint will be the main interface for quiz generation.
 
 --- 
+
+# Phase 7: User Performance Tracking & Dynamic Difficulty
+
+We'll add logic to:
+- Store user quiz results and performance in Redis
+- Adjust the difficulty parameter for future quizzes based on user performance
+
+## Example: Tracking User Performance
+
+```python
+# Store user performance after quiz completion
+user_id = "user123"  # Replace with actual user/session ID
+score = 4  # Example: user got 4/5 correct
+redis_client.lpush(f"user:{user_id}:scores", score)
+
+# Retrieve recent scores to adjust difficulty
+recent_scores = redis_client.lrange(f"user:{user_id}:scores", 0, 4)  # Last 5 quizzes
+recent_scores = [int(s) for s in recent_scores]
+avg_score = sum(recent_scores) / len(recent_scores) if recent_scores else 0
+
+# Adjust difficulty
+if avg_score > 4:
+    difficulty = "hard"
+elif avg_score > 2:
+    difficulty = "medium"
+else:
+    difficulty = "easy"
+```
+
+- Integrate this logic into the quiz generation endpoint to personalize difficulty.
+- You can expand this to track more detailed user history or preferences.
+
+--- 
