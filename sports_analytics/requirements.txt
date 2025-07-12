@@ -2,6 +2,7 @@
 fastapi
 uvicorn[standard]
 pydantic
+pydantic-settings
 
 # LangChain and AI
 langchain
@@ -10,6 +11,7 @@ langchain-pinecone
 langchain-community
 langchain-text-splitters
 langchain-core
+langchain-nomic
 
 # Vector Database
 pinecone-client>=3.0.0,<4.0.0
@@ -39,4 +41,7 @@ black
 flake8
 
 # Monitoring and Logging
-structlog 
+structlog
+
+# Web Interface
+streamlit>=1.28.0 
